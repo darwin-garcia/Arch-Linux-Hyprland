@@ -1,2 +1,2 @@
-# Arch-Linux-Hyprland
-Hyprdots
+# HyprDots
+Arch Linux Ricing with Hyprland

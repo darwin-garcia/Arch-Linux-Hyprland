@@ -1,0 +1,2 @@
+# Arch-Linux-Hyprland
+Hyprdots

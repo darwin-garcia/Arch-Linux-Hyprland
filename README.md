@@ -11,7 +11,8 @@ Rofi
 Conky
 Kitty
 Ranger 
-NeoVim
+LazyVim
+OhMyZSH
 
 Files
 

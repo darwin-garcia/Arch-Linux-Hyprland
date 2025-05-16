@@ -1,0 +1,13 @@
+set encoding=utf-8
+set mouse=a
+set number
+set tabstop=4
+set expandtab
+set autoindent
+syntax on
+set hlsearch
+set showmatch
+set clipboard=unnamedplus
+set ttyfast
+set ruler
+set title

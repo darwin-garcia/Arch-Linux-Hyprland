@@ -1,3 +1,11 @@
+//                      _                
+// __      ____ _ _   _| |__   __ _ _ __ 
+// \ \ /\ / / _` | | | | '_ \ / _` | '__|
+//  \ V  V / (_| | |_| | |_) | (_| | |   
+//   \_/\_/ \__,_|\__, |_.__/ \__,_|_|   
+//                |___/                
+//
+
 {
   "layer": "top",
   "width": 1880 ,
@@ -11,7 +19,7 @@
   // Modules Definition
   "custom/launcher" : {
 	"tooltip": true,
-	"tooltip-format" : "Start Here.",
+	"tooltip-format" : "Start Here :)",
     	"format" : "󰣇 ",
     	"on-click": "rofi -show drun",
     	"on-click-right": "killall rofi"

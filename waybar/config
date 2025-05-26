@@ -89,8 +89,9 @@
 
   "disk": {
 	"tooltip" : true,
-	"tooltip-format" : " {path}  {percentage_used}% used.  {used} GB of {total} GB" ,
-        "format": "<span color='#d08fff'> </span> {used}",
+	"tooltip-format" : " {path}  {percentage_used}% used.  {used} of {total} " ,
+        "format": "<span color='#d08fff'> </span> {percentage_used}%",
+	"format-alt": "<span color='#d08fff'> </span> {used} ",
         "interval": 30,
    },
 

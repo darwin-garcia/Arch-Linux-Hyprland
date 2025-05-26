@@ -8,7 +8,7 @@
 
 {
   "layer": "top",
-  "width": 1880 ,
+  "width": 1520 ,
   "margin-top": 10,
 
   // Modules Layout
@@ -79,12 +79,17 @@
    },
 
   "memory": {
+	"tooltip" : true,
+	"tooltip-format" : "  {used} GB of {total} GB" ,
         "interval": 30,
-        "format": "<span color='#7dcfff'> </span> {}% {used} GB",
+        "format": "<span color='#7dcfff'> </span> {}% ",
+	"format-alt": "<span color='#7dcfff'> </span> {}% {used} GB",
         "max-length": 100
    },
 
   "disk": {
+	"tooltip" : true,
+	"tooltip-format" : " {path}  {percentage_used}% used.  {used} GB of {total} GB" ,
         "format": "<span color='#d08fff'> </span> {used}",
         "interval": 30,
    },
@@ -142,8 +147,8 @@
 		"format-wifi": "<span color='#9ece6a'> </span> {bandwidthDownBytes} | {essid}",
 		"format-ethernet": "<span color='#7aa2f7'>󰈁</span> {bandwidthDownBytes} | {ipaddr}",
 		"format-disconnected": "<span color='#FF0000'>󰌙 </span>",
-        "interval": 2,
-		"tooltip-format-wifi": "󰢩 {ifname}, \n  {essid} \n Signal: {signalStrength} % \n Freq: {frequency}GHz \n IP: {ipaddr} \n Submask: {netmask} \n Gateway: {gwaddr}",
+        	"interval": 2,
+		"tooltip-format-wifi": "󰢩 {ifname} \n  {essid} \n Signal: {signalStrength} % \n Freq: {frequency}GHz \n IP: {ipaddr} \n Submask: {netmask} \n Gateway: {gwaddr}",
 		"tooltip-format-ethernet": "󰢩  {ifname} \n󰈁 LAN \n IP: {ipaddr} \n Submask: {netmask} \n Gateway: {gwaddr}",
 		"tooltip-format-disconnected": "󰅛 Disconnected."
 		
@@ -180,7 +185,7 @@
             "<span color='#76f7bf'></span>", 
             "<span color='#76f7bf'></span>", 
             "<span color='#73fdff'></span>", 
-            "<span color='#73fdff'> /span>"
+            "<span color='#73fdff'> </span>"
         ]
     },
 
@@ -188,7 +193,7 @@
         "tooltip": true,
         "interval": 60,
         "format": "  {:%I:%M %p}",
-        "format-alt": "󰸗 {:%A, %B %d/%Y   %R %p} ",
+        "format-alt": "󰸗 {:%A, %B %d/%Y   %I:%M %p} ",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
                     "mode"          : "year",

@@ -30,3 +30,6 @@ Debes descargar la version mas reciente de Arch Linux y darle formato en un Pend
 #### Terminal (Kitty) Mi configuracion
 
 #### Ajustes para Entorno Grafico basado en Wayland (Hyprland)
+
+Probado en Junio 2025
+🎯 ©2025. Creado y diseñado por 👨‍💻 Darwin Garcia. 🇨🇴

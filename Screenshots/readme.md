@@ -2,7 +2,12 @@
 Debes descargar la version mas reciente de Arch Linux y darle formato en un Pendrive. Recomiendo BalenaEtcher
 ### Paso de Instalacion
 
-### Particiones del disco duri
+### Particiones del disco duro
+
+##### Comprobar si es BIOS o UEFI
+##### Crear EFI de arranque
+##### NVMe (dev/nvme0)
+##### SATA (dev/sda0)
 
 ### Post Instalacion (Metodo Dificil)
 

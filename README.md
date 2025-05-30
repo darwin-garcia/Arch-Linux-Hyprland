@@ -1,4 +1,4 @@
-### HyprDots
+# Arch Linux (Hyprland/Wayland)
 Arch Linux Ricing with Hyprland
 
 ## Screenshots
@@ -15,13 +15,15 @@ Arch Linux Ricing with Hyprland
 ## Include
 Waybar
 Rofi
-Conky
 Kitty
 Ranger 
 LazyVim
 OhMyZSH
 
 Files
+$USER/.config/
+
+You can copy and replace files in this repo.
 
 Repo (Pacman)
 

@@ -55,23 +55,25 @@ Espanol Espana ` echo KEYMAP=ES > /etc/vconsole.conf `
 * Configurar el teclado latino de forma permanente ` Setxkbmap -layout latam -variant nodeadkeys `
 
 #### Cambiar Zona Horaria (Aplica para Colombia/Bogota)
-` ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime `
-` hwclock –-systohc || hwclock -w `
-` echo LANG=es_CO.UTF-8 > /etc/locale.conf `
-` locale-gen `
+-` ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime `
+-` hwclock –-systohc || hwclock -w `
+-` echo LANG=es_CO.UTF-8 > /etc/locale.conf `
+-` locale-gen `
+
 #### Cambiar el nombre de la maquina
 
-Comando en terminal para cambiar el nombre de maquina (Debe ser usuario Root)
+-Comando en terminal para cambiar el nombre de maquina (Debe ser usuario Root):
 ` echo myhostname > /etc/hostname`
-Para verificar o escribir manualmente
+- Para verificar o escribir manualmente:
 ` vim /etc/hostname ` o ` nano /etc/hostname`
 
 #### Instalacion de Repositorios
 El servicio de repositorios por defecto y oficial para Arch Linux es Pacman. Desde aqui puedes instalar todos los complementos y apps que necesites para tu PC con Arch Linux
-* ` sudo pacman -S ` Instalar un programa
-* ` sudo pacman -Syu ` Actualizar tu sistema 
-* ` sudo pacman -R ` Desinstalar un programa
-* ` sudo pacman -Rcs ` Desinstalar completamente un programa con sus complementos
+* ` sudo pacman -S ` <- Instalar un programa
+* ` sudo pacman -Syu ` <- Actualizar tu sistema 
+* ` sudo pacman -R ` <- Desinstalar un programa
+* ` sudo pacman -Rcs ` <- Desinstalar completamente un programa con sus complementos
+  
 #### Post Instalacion (Metodo Dificil)
 
 Activar el chroot (Pasar a Instalacion de Paquetes Arch Linux desde la consola de comandos inicial)
@@ -82,7 +84,7 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 * Arch Linux minimo (Sin Interfaz Grafica, Sin Gestor de Usuario)
 ` pacstrap /mnt base base-devel linux linux-firmware linux-headers sudo grub efibootmgr htop vim ranger fastfetch zsh ntfs-3g gvfs networkmanager netctl dhcp wpa_supplicant dialog  dosfstools openssh iwctl`
 * Arch Linux (Interfaz Grafica GNOME, Gestor de Usuario GDM)
-` pacstrap /mnt  base base-devel linux linux-firmware linux-headers efibootmgr htop vim ranger fastfetch zsh gnome gnome-extra gnoeme-tweaks galculator gparted gdm networkmanager ntfs-3g gvfs networkmanager netctl dhcp wpa_supplicant dialog  dosfstools openssh iwctl `
+` pacstrap /mnt  base base-devel git linux linux-firmware linux-headers efibootmgr htop vim ranger fastfetch zsh gnome gnome-extra gnoeme-tweaks galculator gparted gdm networkmanager ntfs-3g gvfs networkmanager netctl dhcp wireless_tools wpa_supplicant dialog dosfstools openssh iwd iwctl xorg-server xorg-xinit xdg-utils`
 * Arch Linux con nucleo de Linux LTS (Interfaz Grafica GNOME, Gestor de Usuario GDM)
 ` pacstrap /mnt base base-devel linux linux-firmware linux-lts linux-headers linux-lts-headers efibootmgr xorg-server xorg-xinit vim `
 * Arch Linux con nucleo de Linux Hardened (Interfaz Grafica GNOME, Gestor de Usuario GDM)
@@ -92,19 +94,19 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 
 ### Activar Paquetes y Servicios despues de la instalacion de Arch Linux
 * Activar el servicio de Red (NetworkManager)
-  ` `
+  ` systemctl enable NetworkManager.service`
 * Activar el servicio de Audio (pipewire)
   ` `
 * Activar el gestor de usuarios (SDDM)
   ` sudo systemctl enable sddm.service -f `
 
 #### Instalacion de Entorno Grafico AwesomeWM
-`sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme`
+`sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme iwd iwctl rxvt-unicode sxhkd wget wireless_tools wpa_suplicant xdg-utils htop fastfetch tty-clock cava ranger neovim`
 #### Instalacion de Entorno Grafico Hyprland
 `sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire ` 
 
 #### Instalacion de Entorno Grafico XFCE (Desktop)
-`sudo pacman -S xfce4 xfce4-goodies gvfs xarchiver thunar xfce4-screenshooter pavucontrol mousepad breeze-icons`
+`sudo pacman -S xfce4 xfce4-goodies gvfs xarchiver thunar xfce4-screenshooter pavucontrol mousepad breeze-icons xfce4-calculator-plugin xfce4-pulseaudio-plugin pulseaudio `
 
 #### Instalacion de Entorno Grafico Mate (Desktop)
 `sudo pacman -S --needed mate mate-extra `
@@ -112,7 +114,7 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 `sudo pacman -S blueman bluez-utils cinnamon gnome-keying gnome-screenshot gnome-terminal gvfs-smb system-config-printer xdg-users-dirs-gtk xed `
 
 #### Instalacion de Entorno Grafico Pantheon (ElementaryOS)
-`sudo pacman -S  `
+`sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank gnome-settings-daemon-elementary pantheon-tweaks-git pantheon-dock-git`
 
 #### Instalacion de Entorno Grafico BSPWM
 `sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`

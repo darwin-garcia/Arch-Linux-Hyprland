@@ -63,7 +63,8 @@ You can copy and replace files in this repo.
 * ` pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` <- Video NVIDIA and Libraries
 * ` pacman -S xf86-video-amdgpu `<- Video ATI/AMD Radeon/FirePro
 
-[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main) para ver mas instrucciones de instalacion de Arch Linux
+#### Mas sobre Instalacion de Arch Linux
+[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Screenshots) para ver mas instrucciones de instalacion de Arch Linux
 
 Probado en Junio 2025
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

@@ -12,13 +12,18 @@ Arch Linux Ricing with Hyprland
 
 ## Video
 
-## Include
+## My Settings (Mis Configuraciones)
+
+Official Repo
 * [Waybar](https://github.com/Alexays/Waybar)
 * [Rofi](https://github.com/davatorium/rofi)
 * [Kitty](https://sw.kovidgoyal.net/kitty/)
 * [Ranger](https://github.com/ranger/ranger) 
 * [LazyVim](https://www.lazyvim.org/)
 * [OhMyZSH](https://ohmyz.sh/#install)
+
+Console:
+` `
 
 Files: 
 $USER/.config/
@@ -58,7 +63,7 @@ Drivers
 * ` pacman -S nvidia nvidia-utils ` <- NVIDIA
 * ` pacman -S xf86-video-amdgpu `<- ATI/AMD Radeon/FirePro
 
-## My Settings (Mis Configuraciones)
+
 
 Probado en Junio 2025
 👨‍💻 Darwin Garcia. 🇨🇴

@@ -51,7 +51,8 @@ X es el numero de la particion
 * Crear el idioma del teclado 
 Espanol Latinoamerica: ` echo KEYMAP=la-latin1 > /etc/vconsole.conf `
 Espanol Espana ` echo KEYMAP=ES > /etc/vconsole.conf `
-* Verificar el cambio del idioma del teclado: `vim /etc/vconsole.conf  ` 
+* Verificar el cambio del idioma del teclado: `vim /etc/vconsole.conf ` o ` localectl status` (Despues de reinicio)
+* Configurar el teclado latino de forma permanente ` Setxkbmap -layout latam -variant nodeadkeys `
 
 #### Cambiar Zona Horaria (Aplica para Colombia/Bogota)
 ` ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime `
@@ -79,7 +80,7 @@ Seleccionar laa Instalacion de Paquetes
 ` pacstrap /mnt `
 Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la instalacion
 * Arch Linux minimo (Sin Interfaz Grafica, Sin Gestor de Usuario)
-` pacstrap /mnt base base-devel linux linux-firmware linux-headers efibootmgr htop vim ranger fastfetch zsh `
+` pacstrap /mnt base base-devel linux linux-firmware linux-headers sudo grub efibootmgr htop vim ranger fastfetch zsh ntfs-3g gvfs networkmanager netctl dhcp wpa_supplicant dialog  dosfstools openssh`
 * Arch Linux (Interfaz Grafica GNOME, Gestor de Usuario GDM)
 ` pacstrap /mnt  base base-devel linux linux-firmware linux-headers efibootmgr htop vim ranger fastfetch zsh gnome gnome-extra gparted gdm `
 * Arch Linux con nucleo de Linux LTS (Interfaz Grafica GNOME, Gestor de Usuario GDM)
@@ -115,7 +116,7 @@ Crear la configuracion
 * Editar la configuracion `nvim /.config/nvim/ `
 
 #### Gadgets de Terminal
-` sudod pacman -S conky neofetch fastfetch cava tty-clock`
+` sudo pacman -S conky neofetch fastfetch cava tty-clock`
 
 #### Terminal (Kitty) Mi configuracion
 ` sudo pacman -S kitty ` 

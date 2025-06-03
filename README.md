@@ -57,11 +57,11 @@ You can copy and replace files in this repo.
 ` makepkg -si`  
 
 #### Drivers
-* ` pacman -S intel-ucode ` <- CPU Intel 
-* ` pacman -S amd-ucode ` <- CPU AMD/Ryzen
-* ` pacman -S xf86-video-intel libva-intel-driver` <- Video Intel
-* ` pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` <- Video NVIDIA and Libraries
-* ` pacman -S xf86-video-amdgpu `<- Video ATI/AMD Radeon/FirePro
+* `pacman -S intel-ucode ` <- CPU Intel 
+* `pacman -S amd-ucode ` <- CPU AMD/Ryzen
+* `pacman -S xf86-video-intel libva-intel-driver intel-media-driver vulkan-intel` <- Video Intel
+* `pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` <- Video NVIDIA and Libraries
+* `pacman -S xf86-video-amdgpu vulkan-radeon`<- Video ATI/AMD Radeon/FirePro
 
 #### Mas sobre Instalacion de Arch Linux
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Screenshots) para ver mas instrucciones de instalacion de Arch Linux

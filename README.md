@@ -66,5 +66,4 @@ Drivers
 
 
 Probado en Junio 2025
-👨‍💻 Darwin Garcia. 🇨🇴
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

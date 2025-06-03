@@ -59,7 +59,7 @@ You can copy and replace files in this repo.
 #### Drivers
 * ` pacman -S intel-ucode ` <- CPU Intel 
 * ` pacman -S amd-ucode ` <- CPU AMD/Ryzen
-* ` pacman -S xf86-video-intel ` <- Video Intel
+* ` pacman -S xf86-video-intel libva-intel-driver` <- Video Intel
 * ` pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` <- Video NVIDIA and Libraries
 * ` pacman -S xf86-video-amdgpu `<- Video ATI/AMD Radeon/FirePro
 

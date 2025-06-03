@@ -26,7 +26,7 @@ $USER/.config/
 You can copy and replace files in this repo.
 
 Repo (Pacman)
-
+''' sudo pacman -Syu '''
 Repo (AUR 'yay')
 
 Drivers

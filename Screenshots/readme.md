@@ -12,7 +12,7 @@ Debes descargar la version mas reciente de Arch Linux y darle formato en un Pend
 
 Cuando salga la pantalla de comandos por primera vez intenta esto antes de empezar:
 * Verifica si tienes conexion a Internet: ` ping archlinux.org`
-* Debes tener en cuenta el idioma del teclado durante la instalacion, ya que suele equivocarse al escribir los caracteres adicionales y al terminar de instalar Arch Linux, el teclado regresara al idioma por defecto (Ingles - US). Mira en la seccion Cambiar el idioma del Teclado
+* Debes tener en cuenta el idioma del teclado durante la instalacion, ya que suele equivocarse al escribir los caracteres adicionales y al terminar de instalar Arch Linux, el teclado regresara al idioma por defecto (Ingles - US). _Mira en la seccion Cambiar el idioma del Teclado_
 * Si quieres instalar Arch Linux de forma facil y sencilla, solo ingresa el comando: ` archinstall `. Debes usar las flechas direccionales del teclado, Esc, Space y Enter para interactuar con el menu y validar los cambios
   
 #### Particiones del disco duro
@@ -80,9 +80,9 @@ Seleccionar laa Instalacion de Paquetes
 ` pacstrap /mnt `
 Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la instalacion
 * Arch Linux minimo (Sin Interfaz Grafica, Sin Gestor de Usuario)
-` pacstrap /mnt base base-devel linux linux-firmware linux-headers sudo grub efibootmgr htop vim ranger fastfetch zsh ntfs-3g gvfs networkmanager netctl dhcp wpa_supplicant dialog  dosfstools openssh`
+` pacstrap /mnt base base-devel linux linux-firmware linux-headers sudo grub efibootmgr htop vim ranger fastfetch zsh ntfs-3g gvfs networkmanager netctl dhcp wpa_supplicant dialog  dosfstools openssh iwctl`
 * Arch Linux (Interfaz Grafica GNOME, Gestor de Usuario GDM)
-` pacstrap /mnt  base base-devel linux linux-firmware linux-headers efibootmgr htop vim ranger fastfetch zsh gnome gnome-extra gparted gdm `
+` pacstrap /mnt  base base-devel linux linux-firmware linux-headers efibootmgr htop vim ranger fastfetch zsh gnome gnome-extra gnoeme-tweaks galculator gparted gdm networkmanager ntfs-3g gvfs networkmanager netctl dhcp wpa_supplicant dialog  dosfstools openssh iwctl `
 * Arch Linux con nucleo de Linux LTS (Interfaz Grafica GNOME, Gestor de Usuario GDM)
 ` pacstrap /mnt base base-devel linux linux-firmware linux-lts linux-headers linux-lts-headers efibootmgr xorg-server xorg-xinit vim `
 * Arch Linux con nucleo de Linux Hardened (Interfaz Grafica GNOME, Gestor de Usuario GDM)
@@ -98,11 +98,27 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 * Activar el gestor de usuarios (SDDM)
   ` sudo systemctl enable sddm.service -f `
 
+#### Instalacion de Entorno Grafico AwesomeWM
+`sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme`
 #### Instalacion de Entorno Grafico Hyprland
-`sudo pacman -S hyprland ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire ` 
+`sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire ` 
+
+#### Instalacion de Entorno Grafico XFCE (Desktop)
+`sudo pacman -S xfce4 xfce4-goodies gvfs xarchiver thunar xfce4-screenshooter pavucontrol mousepad breeze-icons`
+
+#### Instalacion de Entorno Grafico Mate (Desktop)
+`sudo pacman -S --needed mate mate-extra `
+#### Instalacion de Entorno Grafico Cinammon (Desktop) usa componentes GNOME
+`sudo pacman -S blueman bluez-utils cinnamon gnome-keying gnome-screenshot gnome-terminal gvfs-smb system-config-printer xdg-users-dirs-gtk xed `
+
+#### Instalacion de Entorno Grafico Pantheon (ElementaryOS)
+`sudo pacman -S  `
 
 #### Instalacion de Entorno Grafico BSPWM
-` `
+`sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
+
+#### Instalacion de Entorno Grafico Qtile
+`sudo pacman -S qtile alacritty `
 
 #### Codecs Multimedia
 ` sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 

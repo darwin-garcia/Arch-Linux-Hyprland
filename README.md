@@ -20,7 +20,7 @@ Arch Linux Ricing with Hyprland
 * LazyVim
 * OhMyZSH
 
-Files
+Files: 
 $USER/.config/
 
 You can copy and replace files in this repo.
@@ -57,6 +57,9 @@ Drivers
 * ` pacman -S xf86-video-intel ` <- Video Intel
 * ` pacman -S nvidia nvidia-utils ` <- NVIDIA
 * ` pacman -S xf86-video-amdgpu `<- ATI/AMD Radeon/FirePro
-DOC File: 
 
+## My Settings (Mis Configuraciones)
+
+Probado en Junio 2025
+👨‍💻 Darwin Garcia. 🇨🇴
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

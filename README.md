@@ -13,12 +13,12 @@ Arch Linux Ricing with Hyprland
 ## Video
 
 ## Include
-* Waybar
-* Rofi
-* Kitty
-* Ranger 
-* LazyVim
-* OhMyZSH
+* [Waybar](https://github.com/Alexays/Waybar)
+* [Rofi](https://github.com/davatorium/rofi)
+* [Kitty](https://sw.kovidgoyal.net/kitty/)
+* [Ranger](https://github.com/ranger/ranger) 
+* [LazyVim](https://www.lazyvim.org/)
+* [OhMyZSH](https://ohmyz.sh/#install)
 
 Files: 
 $USER/.config/

@@ -94,11 +94,11 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 
 ### Activar Paquetes y Servicios despues de la instalacion de Arch Linux
 * Activar el servicio de Red (NetworkManager)
-  ` systemctl enable NetworkManager.service`
+  `systemctl enable NetworkManager.service`
 * Activar el servicio de Audio (pipewire)
-  ` `
+  `sudo systemctl enable --global pipewire-pulse `
 * Activar el gestor de usuarios (SDDM)
-  ` sudo systemctl enable sddm.service -f `
+  `sudo systemctl enable sddm.service -f `
 
 #### Instalacion de Entorno Grafico AwesomeWM
 `sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme iwd iwctl rxvt-unicode sxhkd wget wireless_tools wpa_suplicant xdg-utils htop fastfetch tty-clock cava ranger neovim`
@@ -114,7 +114,7 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 `sudo pacman -S blueman bluez-utils cinnamon gnome-keying gnome-screenshot gnome-terminal gvfs-smb system-config-printer xdg-users-dirs-gtk xed `
 
 #### Instalacion de Entorno Grafico Pantheon (ElementaryOS)
-`sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank gnome-settings-daemon-elementary pantheon-tweaks-git pantheon-dock-git`
+`sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank`
 
 #### Instalacion de Entorno Grafico BSPWM
 `sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
@@ -123,22 +123,22 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 `sudo pacman -S qtile alacritty `
 
 #### Codecs Multimedia
-` sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 
+`sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 
 #### OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 
 #### NeoVim
-` sudo pacman -S neovim ` 
+`sudo pacman -S neovim ` 
 Crear la configuracion
 * Crear la carpeta `mkdir /.config/nvim `
-* Crear el archivo de configuracion ` touch init.vim `
+* Crear el archivo de configuracion `touch init.vim `
 * Editar la configuracion `nvim /.config/nvim/init.vim `
 
 #### Gadgets de Terminal
-` sudo pacman -S conky neofetch fastfetch cava tty-clock figlet`
+`sudo pacman -S conky neofetch fastfetch cava tty-clock figlet`
 
 #### Terminal (Kitty) Mi configuracion
-` sudo pacman -S kitty ` 
+`sudo pacman -S kitty ` 
 #### Ajustes para Entorno Grafico basado en Wayland (Hyprland)
 
 

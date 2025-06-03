@@ -15,10 +15,12 @@ Cuando salga la pantalla de comandos por primera vez intenta esto antes de empez
 * Debes tener en cuenta el idioma del teclado durante la instalacion, ya que suele equivocarse al escribir los caracteres adicionales y al terminar de instalar Arch Linux, el teclado regresara al idioma por defecto (Ingles - US). _Mira en la seccion Cambiar el idioma del Teclado_
 * Si quieres instalar Arch Linux de forma facil y sencilla, solo ingresa el comando: `archinstall `. Debes usar las flechas direccionales del teclado, Esc, Space y Enter para interactuar con el menu y validar los cambios
   
-#### Particiones del disco duro
+### Particiones del disco duro
 Las particiciones del disco duro en tu maquina se identifican como:
 * nvme0n1 << Disco Duro NVMe SSD
 * sda1 << Disco duro SATA o USB Externa (Puede ser disco duro o Pendrive)
+
+#### Estructura de Particiones Linux
 Minimo deben tener este ajuste para que pueda arrancar Arch Linux:
 * `/ ` [ext4] _Raiz o Particion principal del Sistema_
 * `/swap` [Linux Swap] _Memoria Virtual. Debe ser igual o la mitad de la RAM de tu PC instalada. Si tienes poca ram, se recomienda el doble de la RAM instalada de tu PC_
@@ -40,7 +42,7 @@ X es el numero de la particion.
 ##### Crear la particion SWAP manualmente
 * `mkswap /dev/sdaX ` o ` mkswap /dev/nvme0n1pX `
 * `swapon /dev/sdaX ` o ` swapon /dev/nvme0n1pX  `
-##### 
+##### Crear la particion Raiz /
 * NVMe (dev/nvme0)
 X es el numero de la particion: 
 `mkfs.ext4 /dev/nvme0n1pX `

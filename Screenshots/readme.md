@@ -61,14 +61,14 @@ X es el numero de la particion: `mkfs.ext4 /dev/sdaX `
 * Configurar el teclado latino de forma permanente `Setxkbmap -layout latam -variant nodeadkeys `
 
 #### Cambiar Zona Horaria (Aplica para Colombia/Bogota)
--`ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime `
--`hwclock –-systohc || hwclock -w `
--`echo LANG=es_CO.UTF-8 > /etc/locale.conf `
--`locale-gen `
+- `ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime `
+- `hwclock –-systohc || hwclock -w `
+- `echo LANG=es_CO.UTF-8 > /etc/locale.conf `
+- `locale-gen `
 
 #### Cambiar el nombre de la maquina
 
--Comando en terminal para cambiar el nombre de maquina (Debe ser usuario Root):
+- Comando en terminal para cambiar el nombre de maquina (Debe ser usuario Root):
 `echo myhostname > /etc/hostname`
 - Para verificar o escribir manualmente:
 `vim /etc/hostname ` o ` nano /etc/hostname`

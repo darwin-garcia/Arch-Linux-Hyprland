@@ -52,11 +52,11 @@ Instalacion (Dentro de la cuenta de usuario)
 ` makepkg -si`  
 
 Drivers
-` pacman -S intel-ucode ` <-Intel 
-` pacman -S amd-ucode ` <-AMD
-` pacman -S xf86-video-intel ` <- Video Intel
-` pacman -S nvidia nvidia-utils ` <-NVIDIA
-` pacman -S xf86-video-amdgpu `<-ATI/AMD Radeon/FirePro
+* ` pacman -S intel-ucode ` <- Intel 
+* ` pacman -S amd-ucode ` <- AMD
+* ` pacman -S xf86-video-intel ` <- Video Intel
+* ` pacman -S nvidia nvidia-utils ` <- NVIDIA
+* ` pacman -S xf86-video-amdgpu `<- ATI/AMD Radeon/FirePro
 DOC File: 
 
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

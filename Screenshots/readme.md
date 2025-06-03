@@ -99,13 +99,13 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
   ` sudo systemctl enable sddm.service -f `
 
 #### Instalacion de Entorno Grafico Hyprland
-`sudo pacman -S hyprland ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland ` 
+`sudo pacman -S hyprland ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire ` 
 
 #### Instalacion de Entorno Grafico BSPWM
 ` `
 
 #### Codecs Multimedia
-` ` 
+` sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 
 #### OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 

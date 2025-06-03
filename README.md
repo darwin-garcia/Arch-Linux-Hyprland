@@ -33,27 +33,27 @@ You can copy and replace files in this repo.
 
 #### Repo (Pacman)
 ` sudo pacman -Syu `
-#### Repo (AUR 'yay')
+#### Repo (AUR 'yay') Manual Setup (Instalacion Manual)
 
-* Paquetes Requeridos
+1. Paquetes Requeridos
 ` sudo pacman -S –needed base-devel git curl` 
 
-* Repositorio Local
+2. Repositorio Local
 ` curl https://aur.archlinux.org/cgit/aur.git/snapshot/yay.tar.gz --output yay.tar.gz ` 
 
-* Descomprimir el archivo del repositorio local
+3. Descomprimir el archivo del repositorio local
 ` tar -xvf yay.tar.gz –strip-components=1 ` 
 
-* Clonar el Repositorio yay (AUR)
+4. Clonar el Repositorio yay (AUR)
 ` git clone https://aur.archlinux.org/yay.git ` 
 
-* Cambiar de directorio a la carpeta descargada
+5. Cambiar de directorio a la carpeta descargada
 ` cd yay/ ` 
 
-* Sincronizar
+6. Sincronizar
 ` makepkg –syncdeps ` 
 
-* Instalacion (Dentro de la cuenta de usuario)
+7. Instalacion (Dentro de la cuenta de usuario)
 ` makepkg -si`  
 
 #### Drivers

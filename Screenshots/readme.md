@@ -96,24 +96,25 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 * Activar el servicio de Audio (pipewire)
   ` `
 * Activar el gestor de usuarios (SDDM)
-  ` `
+  ` sudo systemctl enable sddm.service -f `
 
 #### Instalacion de Entorno Grafico Hyprland
-` ` 
+`sudo pacman -S hyprland ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland ` 
 
 #### Instalacion de Entorno Grafico BSPWM
 ` `
 
 #### Codecs Multimedia
-
+` ` 
 #### OhMyZSH
-[Sitio Web](https://ohmyz.sh/#install) de Instalacion 
+[Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 
 #### NeoVim
-` ` 
+` sudo pacman -S neovim ` 
 Crear la configuracion
 * Crear la carpeta `mkdir /.config/nvim `
-* Editar la configuracion `nvim /.config/nvim/ `
+* Crear el archivo de configuracion ` touch init.vim `
+* Editar la configuracion `nvim /.config/nvim/init.vim `
 
 #### Gadgets de Terminal
 ` sudo pacman -S conky neofetch fastfetch cava tty-clock`

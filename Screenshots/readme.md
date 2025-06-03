@@ -20,9 +20,9 @@ Las particiciones del disco duro en tu maquina se identifican como:
 nvme0n1 <<Disco Duro NVMe SSD
 sda1 << Disco duro SATA o USB Externa (Puede ser disco duro o Pendrive)
 Minimo deben tener este ajuste para que pueda arrancar Arch Linux:
-* / [ext4] Raiz o Particion principal del Sistema
-* /swap [Linux Swap] Memoria Virtual. Debe ser igual o la mitad de la RAM de tu PC instalada. Si tienes poca ram, se recomienda el doble de la RAM instalada de tu PC
-* /boot [fat32/EFIBOOT] 512MB o 1GB de tamano. Debe estar en el primer orden y marcar la particion como arranque
+* `/` [ext4] _Raiz o Particion principal del Sistema_
+* `/swap` [Linux Swap] _Memoria Virtual. Debe ser igual o la mitad de la RAM de tu PC instalada. Si tienes poca ram, se recomienda el doble de la RAM instalada de tu PC_
+* `/boot` [fat32/EFIBOOT] _512MB o 1GB de tamano. Debe estar en el primer orden y marcar la particion como arranque_
 
 ##### Comprobar si es BIOS o UEFI
 ` ls /sys/firmware/efi/efivars `
@@ -106,7 +106,7 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 #### Codecs Multimedia
 
 #### OhMyZSH
-Sitio Web de Instalacion 
+[Sitio Web](https://ohmyz.sh/#install) de Instalacion 
 
 #### NeoVim
 ` ` 

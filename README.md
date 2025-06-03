@@ -24,6 +24,7 @@ Files
 $USER/.config/
 
 You can copy and replace files in this repo.
+` cp -r (file_name) ./config/(folder_name)/(file_name)`
 
 #### Repo (Pacman)
 ` sudo pacman -Syu `

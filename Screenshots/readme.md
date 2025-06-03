@@ -117,7 +117,7 @@ Crear la configuracion
 * Editar la configuracion `nvim /.config/nvim/init.vim `
 
 #### Gadgets de Terminal
-` sudo pacman -S conky neofetch fastfetch cava tty-clock`
+` sudo pacman -S conky neofetch fastfetch cava tty-clock figlet`
 
 #### Terminal (Kitty) Mi configuracion
 ` sudo pacman -S kitty ` 

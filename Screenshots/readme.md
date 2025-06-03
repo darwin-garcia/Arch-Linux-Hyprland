@@ -35,20 +35,22 @@ Minimo deben tener este ajuste para que pueda arrancar Arch Linux:
 Puedes utilizar una utilidad llamada `cfdisk`  o `cgdisk`
 
 ##### Crear EFI de arranque
+
 X es el numero de la particion. 
-* (sda) (sdb) = Discos SATA o USB Externo
-* (nvme0nX) = Discos NVMe SSD
-`mkfs.fat -F32 /dev/sdaX ` o `mkfs.fat -F32 /dev/nvme0n1pX`
+* (sda) (sdb) = Discos SATA o USB Externo: `mkfs.fat -F32 /dev/sdaX`
+* (nvme0nX) = Discos NVMe SSD :  `mkfs.fat -F32 /dev/nvme0n1pX`
+
+  
 ##### Crear la particion SWAP manualmente
+
 * `mkswap /dev/sdaX ` o ` mkswap /dev/nvme0n1pX `
-* `swapon /dev/sdaX ` o ` swapon /dev/nvme0n1pX  `
+* `swapon /dev/sdaX ` o ` swapon /dev/nvme0n1pX `
+
 ##### Crear la particion Raiz /
 * NVMe (dev/nvme0)
-X es el numero de la particion: 
-`mkfs.ext4 /dev/nvme0n1pX `
+X es el numero de la particion: `mkfs.ext4 /dev/nvme0n1pX `
 * SATA (dev/sda0)
-X es el numero de la particion: 
-`mkfs.ext4 /dev/sdaX `
+X es el numero de la particion: `mkfs.ext4 /dev/sdaX `
 
 #### Cambiar el idioma del Teclado (Puede ser al principio o durante el proceso de instalacion)
 * Configurar el idioma del teclado en la sesion actual: `loadkeys la-latin1 `

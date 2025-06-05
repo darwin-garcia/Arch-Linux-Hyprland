@@ -134,7 +134,7 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 
 #### NeoVim
-`sudo pacman -S neovim ` 
+ `sudo pacman -S neovim ` 
 Crear la configuracion
 * Crear la carpeta `mkdir /.config/nvim `
 * Crear el archivo de configuracion `touch init.vim `

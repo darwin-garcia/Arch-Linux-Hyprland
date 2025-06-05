@@ -31,7 +31,8 @@ $USER/.config/
 You can copy and replace files in this repo.
 ` cp -r (file_name) ./config/(folder_name)/(file_name)`
 
-#### Repo (Pacman)
+#### Repo (Pacman) 
+Package Manager integrated with Arch Linux 
 ` sudo pacman -Syu `
 #### Repo (AUR 'yay') Manual Setup (Instalacion Manual)
 

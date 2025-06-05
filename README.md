@@ -1,5 +1,5 @@
 # Arch Linux (Hyprland/Wayland)
-Arch Linux Ricing with Hyprland
+Arch Linux Ricing with Hyprland (Basic Settings)
 
 ## Screenshots
 ![Main Screenshot.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Screenshot_2025-05-20_16-58-41.png)
@@ -15,12 +15,12 @@ Arch Linux Ricing with Hyprland
 ## My Settings (Mis Configuraciones)
 
 Official Repo
-* [Waybar](https://github.com/Alexays/Waybar)
-* [Rofi](https://github.com/davatorium/rofi)
-* [Kitty](https://sw.kovidgoyal.net/kitty/)
-* [Ranger](https://github.com/ranger/ranger) 
-* [LazyVim](https://www.lazyvim.org/)
-* [OhMyZSH](https://ohmyz.sh/#install)
+* [Waybar](https://github.com/Alexays/Waybar): Taskbar on top
+* [Rofi](https://github.com/davatorium/rofi): Start Menu Launcher
+* [Kitty](https://sw.kovidgoyal.net/kitty/): Terminal App
+* [Ranger](https://github.com/ranger/ranger): File Explorer on Terminal 
+* [LazyVim](https://www.lazyvim.org/): Text Editor IDE based
+* [OhMyZSH](https://ohmyz.sh/#install): Terminal Shell
 
 Console:
 ` `

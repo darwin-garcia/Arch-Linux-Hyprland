@@ -22,8 +22,7 @@ Official Repo
 * [LazyVim](https://www.lazyvim.org/): Text Editor IDE based
 * [OhMyZSH](https://ohmyz.sh/#install): Terminal Shell
 
-Console:
-` `
+Console: ` `
 
 Files: 
 $USER/.config/
@@ -32,9 +31,14 @@ You can copy and replace files in this repo.
 ` cp -r (file_name) ./config/(folder_name)/(file_name)`
 
 #### Repo (Pacman) 
+
 Package Manager integrated with Arch Linux 
-` sudo pacman -Syu `
+* ` sudo pacman -Syu `
+
+  
 #### Repo (AUR 'yay') Manual Setup (Instalacion Manual)
+
+Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 
 1. Paquetes Requeridos
 ` sudo pacman -S –needed base-devel git curl` 

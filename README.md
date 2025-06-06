@@ -27,12 +27,12 @@ Console: ` `
 Files: 
 $USER/.config/
 
-You can copy and replace files in this repo.
+Puedes copiar y pegar los archivos alojados en este repositorio. Este es el ejemplo en terminal
 ` cp -r (file_name) ./config/(folder_name)/(file_name)`
 
 #### Repo (Pacman) 
 
-Package Manager integrated with Arch Linux 
+Gestor de Paquetes integrado en Arch Linux
 * ` sudo pacman -Syu `
 
   

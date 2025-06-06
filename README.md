@@ -69,7 +69,7 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 * `pacman -S xf86-video-amdgpu vulkan-radeon`<- Video ATI/AMD Radeon/FirePro
 
 #### Mas sobre Instalacion de Arch Linux
-[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Screenshots) para ver mas instrucciones de instalacion de Arch Linux
+[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones) para ver mas instrucciones de instalacion de Arch Linux
 
 Probado en Junio 2025
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

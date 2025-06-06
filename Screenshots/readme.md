@@ -2,7 +2,7 @@
 Debes descargar la version mas reciente de [Arch Linux](https://archlinux.org/download/) y darle formato en un Pendrive. Recomiendo [BalenaEtcher](https://etcher.balena.io/)
 ### Paso de Instalacion
 - Entra a la UEFI/BIOS de tu PC
-- Deshabilita el Arranque Seguro (Secure Boot)
+- Deshabilita el Arranque Seguro (Secure Boot) para modificar las particiones del disco duro
 - Cambia el orden de arranque a la USB Pendrive que tenga el Arch Linux en el primer orden.
 - Guarda los cambios de la UEFI/BIOS de tu PC
 

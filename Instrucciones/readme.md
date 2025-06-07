@@ -127,6 +127,7 @@ Paquetes minimos requeridos para funcionar tu PC con Arch Linux durante la insta
 `sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank`
 
 #### Instalacion de Entorno Grafico BSPWM
+[Haz Clic Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/BSPWM/readme.md) para una guia mas completa
 `sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
 
 #### Instalacion de Entorno Grafico Qtile

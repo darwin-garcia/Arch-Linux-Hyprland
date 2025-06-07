@@ -1,9 +1,14 @@
 # Entorno Grafico BSPWM
 
-#### Iniciando desde Cero (Desde la consola TTY)
+### Iniciando desde Cero (Desde la consola TTY)
+1. Debes descargar la interfaz de inicio de sesion usuarios
 
+2. Activar el inicio de sesion
+3. Reiniciar el PC
+4. Vuelve al atajo TTY (Ctrl+Alt+F1 o F2)
+5. Instala los paquetes para el entorno grafico 
 
-#### Instalacion de Entorno Grafico BSPWM
+### Instalacion de Entorno Grafico BSPWM
 `sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
 
 

@@ -145,6 +145,7 @@ Crear la configuracion
 * Editar la configuracion `nvim /.config/nvim/init.vim `
 
 #### Gadgets de Terminal
+[Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
 * `sudo pacman -S conky neofetch fastfetch cava tty-clock figlet`
 
 #### Terminal (Kitty) Mi configuracion

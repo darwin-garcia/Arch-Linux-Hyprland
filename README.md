@@ -24,6 +24,8 @@ Official Repo
 
 Console: ` `
 
+Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
+
 Files: 
 $USER/.config/
 

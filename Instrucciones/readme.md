@@ -31,6 +31,8 @@ _(Este segmento se esta actualizando)_
 #### Instalacion de Entorno Grafico AwesomeWM
 `sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme iwd iwctl rxvt-unicode sxhkd wget wireless_tools wpa_suplicant xdg-utils htop fastfetch tty-clock cava ranger neovim`
 #### Instalacion de Entorno Grafico Hyprland
+
+[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Hyprland/readme.md) para ver mas instrucciones de instalacion. Contiene capturas de pantalla
 `sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire ` 
 
 #### Instalacion de Entorno Grafico XFCE (Desktop)

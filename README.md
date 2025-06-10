@@ -1,5 +1,6 @@
 # Arch Linux (Hyprland/Wayland)
 Arch Linux Ricing with Hyprland (Basic Settings)
+[Haz Clic Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones/Hyprland) para ver las Instrucciones de Instalacion de mi entorno con Hyprland
 
 ## Screenshots
 ![Main Screenshot.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Screenshot_2025-05-20_16-58-41.png)

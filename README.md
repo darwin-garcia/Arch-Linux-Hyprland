@@ -62,11 +62,11 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 ` makepkg -si`  
 
 #### Drivers
-* `pacman -S intel-ucode ` <- CPU Intel 
-* `pacman -S amd-ucode ` <- CPU AMD/Ryzen
-* `pacman -S xf86-video-intel libva-intel-driver intel-media-driver vulkan-intel` <- Video Intel
-* `pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` <- Video NVIDIA and Libraries
-* `pacman -S xf86-video-amdgpu vulkan-radeon`<- Video ATI/AMD Radeon/FirePro
+* CPU Intel: `pacman -S intel-ucode ` 
+* CPU AMD/Ryzen: `pacman -S amd-ucode `
+* Video Intel: `pacman -S xf86-video-intel libva-intel-driver intel-media-driver vulkan-intel` 
+* Video NVIDIA: `pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` 
+* Video AMD/ATI `pacman -S xf86-video-amdgpu vulkan-radeon`
 
 #### Mas sobre Instalacion de Arch Linux
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones) para ver mas instrucciones de instalacion de Arch Linux

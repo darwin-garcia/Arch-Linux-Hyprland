@@ -9,8 +9,8 @@
 5. Instala los paquetes para el entorno grafico 
 
 ### Instalacion de Entorno Grafico BSPWM
-`sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
-
+* `sudo pacman -S bspwm dmenu sxhkd feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
+* Puedes copiar y pegar los archivos de la carpeta config/BSPWM. Recomiendo instalar la fuente JetBrainsMono Nerd Font para que los iconos se muestren correctamente. Aplica para Polybar y Conky
 
 Probado en Junio 2025
 🎯 ©2025. Creado y diseñado por 👨‍💻 Darwin Garcia. 🇨🇴

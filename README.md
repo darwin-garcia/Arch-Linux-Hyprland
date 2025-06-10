@@ -64,6 +64,7 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 ` makepkg -si`  
 
 #### Drivers
+Revisa el procesador y tarjeta grafica que tengas instaladas 
 * CPU Intel: `pacman -S intel-ucode ` 
 * CPU AMD/Ryzen: `pacman -S amd-ucode `
 * Video Intel: `pacman -S xf86-video-intel libva-intel-driver intel-media-driver vulkan-intel` 

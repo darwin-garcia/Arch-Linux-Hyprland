@@ -6,7 +6,7 @@
 2. Los siguientes ajustes deben estar incluidos en el archivo `$HOME/.config/hypr/hyprland.conf`. Puedes copiar o revisar el codigo fuente de la carpeta Hypr
 
 3. Modifica el Wallpaper
-El paquete es `hyprpaper`. Esta disponible en su mayoria en el paquete yay(AUR). El archivo para editar se ubica en $HOME/.config/hypr/hyprpaper.conf
+El paquete es `hyprpaper`. Esta disponible en su mayoria en el paquete yay(AUR). El archivo para editar se ubica en `$HOME/.config/hypr/hyprpaper.conf`. Puede editarlo en cualquier editor de texto GUI de Linux o en terminal TTY como nano o vim:
 * `preload= /home/$USER/.config/hypr/$file`
 * `wallpaper= (el directorio del archivo debe ser el mismo del preload)`
 * `splash = false`

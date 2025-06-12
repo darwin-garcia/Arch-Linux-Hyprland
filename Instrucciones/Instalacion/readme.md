@@ -1,6 +1,7 @@
-## Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
+## 😎 Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
 _(Este segmento se esta actualizando)_
-
+<p></p>
+Este es el paso de instalacion manual de particiones, paquetes y configuraciones de usuario inicial para ejecutar Arch Linux en la maquina a instalar
 
 ### Particiones del disco duro
 Las particiciones del disco duro en tu maquina se identifican como:

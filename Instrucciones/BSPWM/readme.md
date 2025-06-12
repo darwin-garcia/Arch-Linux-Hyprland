@@ -9,7 +9,15 @@
 
 ### Instalacion de Entorno Grafico BSPWM
 * `sudo pacman -S bspwm dmenu sxhkd picom feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
-* Puedes copiar y pegar los archivos de la carpeta config/BSPWM. Recomiendo instalar la fuente JetBrainsMono Nerd Font para que los iconos se muestren correctamente. Aplica para Polybar y Conky
+* Puedes copiar y pegar los archivos de la carpeta 📁config/BSPWM. Recomiendo instalar la fuente JetBrainsMono Nerd Font para que los iconos se muestren correctamente. Aplica para Polybar y Conky
 
+### Atajos en el teclado
+Son editables en el 📁config/sxhkd. Esta es mi configuración:
+* `Super`+`F4` = Cerrar la sesion actual del usuario en BSPWM
+* `Super`+`Espacio` = Menu inicio de programas (Rofi)  
+* `Super`+`Enter` = Terminal
+* `Super`+`N` = Editor de Archivos en Terminal (Neovim)
+* `Super`+`E` = Explorador de Archivos en Terminal (Ranger)
+* `Super`+`F7` = Administrador de Tareas (htop)
 Probado en Junio 2025
 🎯 ©2025. Creado y diseñado por 👨‍💻 Darwin Garcia. 🇨🇴

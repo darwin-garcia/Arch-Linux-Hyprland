@@ -1,11 +1,10 @@
 # Entorno Grafico BSPWM
 
 ### Iniciando desde Cero (Desde la consola TTY)
-1. Debes descargar la interfaz de inicio de sesion usuarios
-
-2. Activar el inicio de sesion
+1. Debes descargar la interfaz de inicio de sesion usuarios. Puede ser `lightdm`, `sddm`, `gdm`. 
+2. Activar el inicio de sesion por consola _(Puede instalar el entorno BSPWM despues de este paso antes del reinicio)_
 3. Reiniciar el PC
-4. Vuelve al atajo TTY (Ctrl+Alt+F1 o F2)
+4. Vuelve a la consola TTY. Este se activa con: (Ctrl+Alt+F1 o F2)
 5. Instala los paquetes para el entorno grafico 
 
 ### Instalacion de Entorno Grafico BSPWM

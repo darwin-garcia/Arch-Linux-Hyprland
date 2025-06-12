@@ -12,8 +12,8 @@ Debes descargar la version mas reciente de [Arch Linux](https://archlinux.org/do
 
 Cuando salga la pantalla de comandos por primera vez intenta esto antes de empezar:
 * Verifica si tienes conexion a Internet: `ping archlinux.org`
-* Debes tener en cuenta el idioma del teclado durante la instalacion, ya que suele equivocarse al escribir los caracteres adicionales y al terminar de instalar Arch Linux, el teclado regresara al idioma por defecto (Ingles - US). _Mira en la seccion Cambiar el idioma del Teclado_
-* Si quieres instalar Arch Linux de forma facil y sencilla, solo ingresa el comando: `archinstall `. Debes usar las flechas direccionales del teclado, Esc, Space y Enter para interactuar con el menu y validar los cambios
+* Debes tener en cuenta el idioma del teclado durante la instalacion, ya que el usuario puede equivocarse al escribir los caracteres adicionales y al terminar de instalar Arch Linux, el teclado regresara al idioma por defecto (Ingles - US). _Mira en la seccion Cambiar el idioma del Teclado_
+* Si quieres instalar Arch Linux de forma facil y sencilla, solo ingresa el comando: `archinstall`. Debes usar las flechas direccionales del teclado, Esc, Space y Enter para interactuar con el menu y validar los cambios
 
 ## Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
 _(Este segmento se esta actualizando)_

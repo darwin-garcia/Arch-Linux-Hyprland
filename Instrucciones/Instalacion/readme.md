@@ -1,6 +1,6 @@
 ## 😎💪 Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
 _(Este segmento se esta actualizando)_
-<p></p>
+<p> ⚠ Este es una documentacion y guia de instalacion. No es una guia para resolver problemas de instalacion. Debes estar seguro antes de continuar.</p>
 Este es el paso de instalacion manual de Arch Linux para tu equipo, y se componen de estos pasos:
 
 * Particiones del disco duro
@@ -10,7 +10,7 @@ Este es el paso de instalacion manual de Arch Linux para tu equipo, y se compone
 * Asignar nombre a la maquina
 * Configurar nuevo usuario (incluido Root)
 
-### Particiones del disco duro
+## 📚 Particiones del disco duro
 Las particiciones del disco duro en tu maquina se identifican como:
 * nvme0n1 << Disco Duro NVMe SSD
 * sda1 << Disco duro SATA o USB Externa (Puede ser disco duro o Pendrive)
@@ -26,7 +26,7 @@ Minimo deben tener este ajuste para que pueda arrancar Arch Linux:
 #### Comprobar el disco duro (Previamente sin formato, Solo informacion)
 ` fdisk -l `
 
-### Particiones del disco duro
+### Utilidad de Gestión de Discos para Arch Linux
 Puedes utilizar una utilidad llamada `cfdisk`  o `cgdisk`
 
 ##### Crear EFI de arranque

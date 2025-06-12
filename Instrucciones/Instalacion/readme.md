@@ -1,14 +1,16 @@
 ## 😎💪 Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
 _(Este segmento se esta actualizando)_
-<p> ⚠ Este es una documentacion y guia de instalacion. No es una guia para resolver problemas de instalacion. Debes estar seguro antes de continuar.</p>
+<p> ⚠ Este es una documentación y guia de instalación. No es una guia para resolver problemas durante o después de instalación. Debes estar seguro antes de continuar.</p>
 Este es el paso de instalacion manual de Arch Linux para tu equipo, y se componen de estos pasos:
 
-* Particiones del disco duro
-* Creacion del arranque
-* Paquetes de Instalacion requeridos
-* Configuracion del idioma
-* Asignar nombre a la maquina
-* Configurar nuevo usuario (incluido Root)
+* 📚 Particiones del disco duro
+* 💾 Creacion del arranque
+* 📀 Instalacion de Paquetes necesarios
+* 🌐 Configur del idioma
+* 🕒 Configur la zona horaria
+* ✏ Asignar nombre a la maquina
+* 👨‍💻 Configurar nuevo usuario (incluido Root)
+
 
 ## 📚 Particiones del disco duro
 Las particiciones del disco duro en tu maquina se identifican como:
@@ -47,7 +49,7 @@ X es el numero de la particion: `mkfs.ext4 /dev/nvme0n1pX `
 * SATA (dev/sda0)
 X es el numero de la particion: `mkfs.ext4 /dev/sdaX `
 
-#### Cambiar el idioma del Teclado (Puede ser al principio o durante el proceso de instalacion)
+#### 🌐 Cambiar el idioma del Teclado (Puede ser al principio o durante el proceso de instalacion)
 * Configurar el idioma del teclado en la sesion actual: `loadkeys la-latin1 `
 * Crear el idioma del teclado 
 ** Español Latinoamerica: `echo KEYMAP=la-latin1 > /etc/vconsole.conf `
@@ -55,27 +57,27 @@ X es el numero de la particion: `mkfs.ext4 /dev/sdaX `
 * Verificar el cambio del idioma del teclado: `vim /etc/vconsole.conf ` o `localectl status` (Despues de reinicio)
 * Configurar el teclado latino de forma permanente `Setxkbmap -layout latam -variant nodeadkeys `
 
-#### Cambiar Zona Horaria (Aplica para Colombia/Bogota)
+#### 🕒 Cambiar Zona Horaria (Aplica para Colombia/Bogota)
 - `ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime `
 - `hwclock –-systohc || hwclock -w `
 - `echo LANG=es_CO.UTF-8 > /etc/locale.conf `
 - `locale-gen `
 
-#### Cambiar el nombre de la maquina
+#### ✏ Cambiar el nombre de la maquina
 
 - Comando en terminal para cambiar el nombre de maquina (Debe ser usuario Root):
 `echo myhostname > /etc/hostname`
 - Para verificar o escribir manualmente:
 `vim /etc/hostname ` o ` nano /etc/hostname`
 
-#### Instalacion de Repositorios
+#### 📀 Instalacion de Repositorios
 El servicio de repositorios por defecto y oficial para Arch Linux es Pacman. Desde aqui puedes instalar todos los complementos y apps que necesites para tu PC con Arch Linux
 * `sudo pacman -S ` <- Instalar un programa
 * `sudo pacman -Syu ` <- Actualizar tu sistema 
 * `sudo pacman -R ` <- Desinstalar un programa
 * `sudo pacman -Rcs ` <- Desinstalar completamente un programa con sus complementos
   
-#### Post Instalacion (Metodo Dificil)
+####  Post Instalacion (Metodo Dificil)
 
 Activar el chroot (Pasar a Instalacion de Paquetes Arch Linux desde la consola de comandos inicial)
 `arch-chroot /mnt  `

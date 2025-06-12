@@ -1,5 +1,7 @@
 # Arch Linux (Hyprland/Wayland)
 Arch Linux Ricing with Hyprland (Basic Settings)
+<p> Este repositorio tiene las configuraciones sencillas y minimas para ajustar el entorno de Escritorio a una maquina con Arch Linux instalado desde cero.</p>
+
 [Haz Clic Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones/Hyprland) para ver las Instrucciones de Instalacion de mi entorno con Hyprland
 
 ## Screenshots

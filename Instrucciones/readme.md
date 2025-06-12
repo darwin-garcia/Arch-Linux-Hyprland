@@ -27,11 +27,12 @@ _(Este segmento se esta actualizando)_
   `sudo systemctl enable --global pipewire-pulse `
 * Activar el gestor de usuarios (SDDM)
   `sudo systemctl enable sddm.service -f `
+  
+## 🧮 Entorno grafico basado en Administrador de Ventanas
 
 #### Instalacion de Entorno Grafico AwesomeWM
 `sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme iwd iwctl rxvt-unicode sxhkd wget wireless_tools wpa_suplicant xdg-utils htop fastfetch tty-clock cava ranger neovim`
 #### Instalacion de Entorno Grafico Hyprland
-
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Hyprland/readme.md) para ver mas instrucciones de instalacion. Contiene capturas de pantalla
 `sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire ` 
 
@@ -43,7 +44,8 @@ _(Este segmento se esta actualizando)_
 `sudo pacman -S qtile alacritty `
 
 
-## 📊 Entornos de Escritorio para Arch Linux
+## 📊 Entornos de Escritorio Completo para Arch Linux
+
 #### Instalacion de Entorno Grafico XFCE (Desktop)
 `sudo pacman -S xfce4 xfce4-goodies gvfs xarchiver thunar xfce4-screenshooter pavucontrol mousepad breeze-icons xfce4-calculator-plugin xfce4-pulseaudio-plugin pulseaudio `
 #### Instalacion de Entorno Grafico Mate (Desktop)
@@ -54,8 +56,9 @@ _(Este segmento se esta actualizando)_
 `sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank`
 
 
-#### Codecs Multimedia
+#### 🎬 Codecs Multimedia
 `sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 
+
 #### OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 

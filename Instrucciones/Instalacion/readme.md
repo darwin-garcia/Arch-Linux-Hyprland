@@ -2,6 +2,7 @@
 _(Este segmento se esta actualizando)_
 <p></p>
 Este es el paso de instalacion manual de Arch Linux para tu equipo, y se componen de estos pasos:
+
 * Particiones del disco duro
 * Creacion del arranque
 * Paquetes de Instalacion requeridos

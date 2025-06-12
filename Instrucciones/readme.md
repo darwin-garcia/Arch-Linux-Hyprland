@@ -21,11 +21,11 @@ _(Este segmento se esta actualizando)_
 
 
 ### Activar Paquetes y Servicios despues de la instalacion de Arch Linux
-* Activar el servicio de Red (NetworkManager)
+* 🌐 Activar el servicio de Red (NetworkManager)
   `systemctl enable NetworkManager.service`
-* Activar el servicio de Audio (pipewire)
+* 🔊 Activar el servicio de Audio (pipewire)
   `sudo systemctl enable --global pipewire-pulse `
-* Activar el gestor de usuarios (SDDM)
+* 🧑 Activar el gestor de usuarios (SDDM)
   `sudo systemctl enable sddm.service -f `
   
 ## 🧮 Entorno grafico basado en Administrador de Ventanas

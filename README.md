@@ -70,7 +70,7 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 Revisa el procesador y tarjeta grafica que tengas instaladas 
 * CPU Intel: `pacman -S intel-ucode ` 
 * CPU AMD/Ryzen: `pacman -S amd-ucode `
-* Video Intel: `pacman -S xf86-video-intel libva-intel-driver intel-media-driver vulkan-intel` 
+* Video Intel: `pacman -S xf86-input-libinput libva-intel-driver intel-media-driver vulkan-intel` 
 * Video NVIDIA: `pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` 
 * Video AMD/ATI `pacman -S xf86-video-amdgpu vulkan-radeon`
 

@@ -64,7 +64,15 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 ` makepkg –syncdeps ` 
 
 7. Instalacion (Dentro de la cuenta de usuario)
-` makepkg -si`  
+` makepkg -si`
+
+#### Repo (BlackArch Linux).
+Solo se recomienda para instalar herramientas de pentesting y hacking. Ocupa alrededor de 5GB adicionales al sistema Arch instalado
+Repositorio oficial: [BlackArch](https://blackarch.org/downloads.html#install-repo)
+* `curl -O https://blackarch.org/strap.sh`
+* `chmod +x strap.sh`
+* `sudo ./strap.sh`
+* Actualizar los paquetes: `sudo pacman -Syyu`
 
 #### Drivers
 Revisa el procesador y tarjeta grafica que tengas instaladas 
@@ -73,6 +81,18 @@ Revisa el procesador y tarjeta grafica que tengas instaladas
 * Video Intel: `pacman -S xf86-input-libinput libva-intel-driver intel-media-driver vulkan-intel` 
 * Video NVIDIA: `pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` 
 * Video AMD/ATI `pacman -S xf86-video-amdgpu vulkan-radeon`
+* 
+#### Lector de Huellas Synaptics (Aplica Lenovo ThinkPads)
+Repositorio oficial: [fprintd](https://wiki.archlinux.org/title/Fprint)
+Instalar primero: `sudo pacman -S usbutils`
+`sudo pacman -S fprintd libfprint imagemagick`
+Debe editar el archivo: `sudo nvim /etc/pam.d/system-local-login`
+Añadir la siguiente linea:
+
+Debe editar el archivo en el gestor de usuarios. Consulte la documentación arriba.
+Para habilitar el servicio: `sudo systemctl enable fprintd.service` o `sudo systemctl edit --full --force fprintd.service` y `sudo systemctl daemon-reload`. Puede Reiniciar al finalizar esta parte
+Tan pronto finalice, debe configurar el usuario `fprintd-enroll *user*` y luego comprobar con `fprint-verify`
+
 
 #### Mas sobre Instalacion de Arch Linux
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones) para ver mas instrucciones de instalacion de Arch Linux

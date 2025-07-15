@@ -81,17 +81,19 @@ Revisa el procesador y tarjeta grafica que tengas instaladas
 * Video Intel: `pacman -S xf86-input-libinput libva-intel-driver intel-media-driver vulkan-intel` 
 * Video NVIDIA: `pacman -S nvidia nvidia-utils nvidia-driver nvidia-opencl-icd libcuda1 libnvidia-encode1 ` 
 * Video AMD/ATI `pacman -S xf86-video-amdgpu vulkan-radeon`
-* 
+
 #### Lector de Huellas Synaptics (Aplica Lenovo ThinkPads)
 Repositorio oficial: [fprintd](https://wiki.archlinux.org/title/Fprint)
-Instalar primero: `sudo pacman -S usbutils`
-`sudo pacman -S fprintd libfprint imagemagick`
-Debe editar el archivo: `sudo nvim /etc/pam.d/system-local-login`
-Añadir la siguiente linea:
 
-Debe editar el archivo en el gestor de usuarios. Consulte la documentación arriba.
-Para habilitar el servicio: `sudo systemctl enable fprintd.service` o `sudo systemctl edit --full --force fprintd.service` y `sudo systemctl daemon-reload`. Puede Reiniciar al finalizar esta parte
-Tan pronto finalice, debe configurar el usuario `fprintd-enroll *user*` y luego comprobar con `fprint-verify`
+Instalar primero: 
+* `sudo pacman -S usbutils`
+* `sudo pacman -S fprintd libfprint imagemagick`
+* Debe editar el archivo: `sudo nvim /etc/pam.d/system-local-login`
+* Añadir la siguiente linea: `auth      sufficient   pam_fprintd.so` y Guardar en el editor
+
+* Debe editar el archivo en el gestor de usuarios. Consulte la documentación arriba.
+* Para habilitar el servicio: `sudo systemctl enable fprintd.service` o `sudo systemctl edit --full --force fprintd.service` y `sudo systemctl daemon-reload`. Puede Reiniciar al finalizar esta parte
+* Tan pronto finalice, debe configurar el usuario `fprintd-enroll *user*` y luego comprobar con `fprint-verify`
 
 
 #### Mas sobre Instalacion de Arch Linux

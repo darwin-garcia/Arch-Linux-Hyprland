@@ -58,6 +58,7 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 
 #### Temas e Iconos (Pacman y AUR) 
 * `sudo pacman -S arc-gtk-theme breeze-gtk materia-gtk-theme papirus-icon-theme gtk-engine-murrine gtk-engines`
+* `yay -S qogir-icon-theme qogir-gtk-theme `
 
 #### Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
@@ -79,8 +80,8 @@ Crear la configuracion
 
 #### Gadgets de Terminal
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
-* `sudo pacman -S conky htop glances neofetch fastfetch cava tty-clock neovim ranger figlet`
-* `yay -S unimatrix `
+* `sudo pacman -S conky htop glances neofetch fastfetch cava tty-clock neovim ranger figlet bash-pipes bashtop nvtop`
+* `yay -S unimatrix neofetch`
 
 #### Terminal (Kitty) Mi configuracion
 * `sudo pacman -S kitty ` 

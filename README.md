@@ -27,12 +27,6 @@ Official Repo
 
 Console: ` `
 
-#### Fuentes instaladas (Pacman y AUR) 
-Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
-`pacman -S noto-font noto-fonts-emoji noto-fonts-cjk otf-ipafont ttf-hanazono ttf-dejavu`
-`yay -S  apple-fonts`
-
-
 Files: 
 $USER/.config/
 

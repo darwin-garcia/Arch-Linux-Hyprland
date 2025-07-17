@@ -56,6 +56,9 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 #### Instalacion de Entorno Grafico Pantheon (ElementaryOS)
 `sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank`
 
+#### Temas e Iconos (Pacman y AUR) 
+* `sudo pacman -S arc-gtk-theme breeze-gtk materia-gtk-theme papirus-icon-theme gtk-engine-murrine gtk-engines`
+
 #### Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
 `pacman -S noto-font noto-fonts-emoji noto-fonts-cjk otf-ipafont otf-hermit ttf-hanazono ttf-dejavu ttf-montserrat ttf-bitstream-vera ttf-ibm-plex ttf-anonymous-pro ttf-hack ttf-inconsolata ttf-input-nerd ttf-jetbrains-mono ttf-opensans ttf-font-awesome nerd-fonts adobe-source-sans-fonts gnu-free-fonts xorg-fonts-type1 `
@@ -76,7 +79,8 @@ Crear la configuracion
 
 #### Gadgets de Terminal
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
-* `sudo pacman -S conky htop neofetch fastfetch cava tty-clock figlet`
+* `sudo pacman -S conky htop glances neofetch fastfetch cava tty-clock neovim ranger figlet`
+* `yay -S unimatrix `
 
 #### Terminal (Kitty) Mi configuracion
 * `sudo pacman -S kitty ` 

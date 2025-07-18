@@ -32,6 +32,8 @@ _(Este segmento se esta actualizando)_
 
 #### Instalacion de Entorno Grafico AwesomeWM
 `sudo pacman -S alacritty awesome feh gnu-free-fonts slock terminus-font ttf-liberation xorg-server xorg-xinit xorg-xrandr xsel xterm papirus-icon-theme iwd iwctl rxvt-unicode sxhkd wget wireless_tools wpa_suplicant xdg-utils htop fastfetch tty-clock cava ranger neovim`
+
+![Hyprland.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Desktop%20Calendar.png)
 #### Instalacion de Entorno Grafico Hyprland
 👉[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Hyprland/readme.md) para ver mas instrucciones de instalacion. Contiene capturas de pantalla
 * `sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire `
@@ -56,36 +58,36 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 #### Instalacion de Entorno Grafico Pantheon (ElementaryOS)
 `sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank`
 
-#### Temas e Iconos (Pacman y AUR) 
+### 🖼 Temas e Iconos (Pacman y AUR) 
 * `sudo pacman -S arc-gtk-theme breeze-gtk materia-gtk-theme papirus-icon-theme gtk-engine-murrine gtk-engines`
 * `yay -S qogir-icon-theme qogir-gtk-theme `
 
-#### Fuentes instaladas (Pacman y AUR) 
+### 🀄 Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
 `pacman -S noto-font noto-fonts-emoji noto-fonts-cjk otf-ipafont otf-hermit ttf-hanazono ttf-dejavu ttf-montserrat ttf-bitstream-vera ttf-ibm-plex ttf-anonymous-pro ttf-hack ttf-inconsolata ttf-input-nerd ttf-jetbrains-mono ttf-opensans ttf-font-awesome nerd-fonts adobe-source-sans-fonts gnu-free-fonts xorg-fonts-type1 `
 `yay -S otf-apple-fonts ttf-ms-fonts`
 
-#### 🎬 Codecs Multimedia
+### 🎬 Codecs Multimedia
 `sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 
 
-#### OhMyZSH
+### 🚧 OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 
-#### NeoVim
+### 📑 NeoVim
  `sudo pacman -S neovim ` 
 Crear la configuracion
 * Crear la carpeta `mkdir /.config/nvim `
 * Crear el archivo de configuracion `touch init.vim `
 * Editar la configuracion `nvim /.config/nvim/init.vim `
 
-#### Gadgets de Terminal
+### Gadgets de Terminal
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
 * `sudo pacman -S conky htop glances neofetch fastfetch cava tty-clock neovim ranger figlet bash-pipes bashtop nvtop`
 * `yay -S unimatrix neofetch`
 
-#### Terminal (Kitty) Mi configuracion
+### Terminal (Kitty) Mi configuracion
 * `sudo pacman -S kitty ` 
 Puedes copiar la configuracion en la carpeta del usuario ($HOME): `/home/$USER/.config/kitty/kitty.conf` de este repositorio
 
-Probado en Junio 2025
+Probado en Julio 2025
 🎯 ©2025. Creado y diseñado por 👨‍💻 Darwin Garcia. 🇨🇴

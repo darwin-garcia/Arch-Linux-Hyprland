@@ -13,6 +13,12 @@ Arch Linux Ricing with Hyprland (Basic Settings)
 
 ![Rofi Launcher.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Rofi%20Start%20Menu.png)
 
+![Calendar.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Desktop%20Calendar.png)
+
+![NeoVim](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/NeoVim.png)
+
+![File Explorer](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Files%20Explorer.png)
+
 ## Video
 
 ## My Settings (Mis Configuraciones)

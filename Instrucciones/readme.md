@@ -40,7 +40,7 @@ _(Este segmento se esta actualizando)_
 
 #### Instalacion de Entorno Grafico BSPWM
 👉[Haz Clic Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/BSPWM/readme.md) para una guia mas completa
-* `sudo pacman -S bspwm dmenu sxhkd picom compton feh xorg-xrandr xdo rxvt-unicode picom alacritty neovim ranger conky htop openssh iwd wget smartmontools wireless_tools vim wpa_supplicant xdg-utils`
+* `sudo pacman -S bspwm dmenu sxhkd picom feh xorg-xrandr xdo xdg-utils rxvt-unicode smartmontools alacritty neovim ranger conky htop glances openssh iwd wget wireless_tools wpa_supplicant`
 
 #### Instalacion de Entorno Grafico Qtile
 `sudo pacman -S qtile alacritty `

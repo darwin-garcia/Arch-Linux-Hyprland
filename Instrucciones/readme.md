@@ -64,7 +64,7 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 
 ### 🀄 Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
-* `pacman -S noto-font noto-fonts-emoji noto-fonts-cjk otf-ipafont otf-hermit ttf-hanazono ttf-dejavu ttf-montserrat ttf-bitstream-vera ttf-ibm-plex ttf-anonymous-pro ttf-hack ttf-inconsolata ttf-input-nerd ttf-jetbrains-mono ttf-opensans ttf-font-awesome nerd-fonts adobe-source-sans-fonts gnu-free-fonts xorg-fonts-type1 `
+* `sudo pacman -S noto-fonts noto-fonts-emoji noto-fonts-cjk otf-ipafont otf-hermit ttf-hanazono ttf-dejavu ttf-montserrat ttf-bitstream-vera ttf-ibm-plex ttf-anonymous-pro ttf-hack ttf-inconsolata ttf-input-nerd ttf-jetbrains-mono ttf-opensans ttf-font-awesome nerd-fonts adobe-source-sans-fonts gnu-free-fonts xorg-fonts-type1 `
 * `yay -S otf-apple-fonts ttf-ms-fonts`
 
 ### 🎬 Codecs Multimedia

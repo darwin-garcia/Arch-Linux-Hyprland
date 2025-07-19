@@ -64,11 +64,11 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 
 ### 🀄 Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
-`pacman -S noto-font noto-fonts-emoji noto-fonts-cjk otf-ipafont otf-hermit ttf-hanazono ttf-dejavu ttf-montserrat ttf-bitstream-vera ttf-ibm-plex ttf-anonymous-pro ttf-hack ttf-inconsolata ttf-input-nerd ttf-jetbrains-mono ttf-opensans ttf-font-awesome nerd-fonts adobe-source-sans-fonts gnu-free-fonts xorg-fonts-type1 `
-`yay -S otf-apple-fonts ttf-ms-fonts`
+* `pacman -S noto-font noto-fonts-emoji noto-fonts-cjk otf-ipafont otf-hermit ttf-hanazono ttf-dejavu ttf-montserrat ttf-bitstream-vera ttf-ibm-plex ttf-anonymous-pro ttf-hack ttf-inconsolata ttf-input-nerd ttf-jetbrains-mono ttf-opensans ttf-font-awesome nerd-fonts adobe-source-sans-fonts gnu-free-fonts xorg-fonts-type1 `
+* `yay -S otf-apple-fonts ttf-ms-fonts`
 
 ### 🎬 Codecs Multimedia
-`sudo pacman -S ffmpeg aom libde265 x264 x265 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame gst-plugins-base flac libmpcdec libdca opus lame faac faad2 jasper libwebp libdv xvidcore libvpx dav1d rav1e libvacodec libdvdnav libdvdread libdvd libobs libgl libegl ` 
+`sudo pacman -S ffmpeg faac faad2 aom libde265 x264 x265 libmpeg2 xvidcore libmpcdec libdca libtheora libvpx libwebp libdv schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss dvd+rw-tools libdvdread libdvdnav libdvdread libdvd libobs libgl libegl lame flac opus lame jasper dav1d rav1e libvacodec  ` 
 
 ### 🚧 OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
@@ -84,6 +84,9 @@ Crear la configuracion
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
 * `sudo pacman -S conky htop glances neofetch fastfetch cava neovim ranger figlet bashtop nvtop`
 * `yay -S unimatrix neofetch tty-clock bash-pipes`
+
+### Apps Desktop utilizadas
+`sudo pacman -S audacious ristretto parole mpv `
 
 ### Terminal (Kitty) Mi configuracion
 * `sudo pacman -S kitty ` 

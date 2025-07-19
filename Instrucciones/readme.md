@@ -59,8 +59,8 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 `sudo pacman -S pantheon pantheon-session elementary-icon-theme elementary-wallpapers gtk-theme-elementary lightdm-pantheon-greeter sound-theme-elementary switchboard pantheon-default-settings pantheon-applications-menu ttf-opensans capnet-assist pantheon-calculator pantheon-calendar pantheon-camera pantheon-code pantheon-files pantheon-mail pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-terminal pantheon-videos simple-scan plank`
 
 ### 🖼 Temas e Iconos (Pacman y AUR) 
-* `sudo pacman -S arc-gtk-theme breeze-gtk materia-gtk-theme papirus-icon-theme gtk-engine-murrine gtk-engines`
-* `yay -S qogir-icon-theme qogir-gtk-theme `
+* `sudo pacman -S  breeze-gtk materia-gtk-theme papirus-icon-theme gtk-engine-murrine gtk-engines`
+* `yay -S arc-gtk-theme qogir-icon-theme qogir-gtk-theme xcursor-breeze breezex-cursor-theme `
 
 ### 🀄 Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)
@@ -82,8 +82,8 @@ Crear la configuracion
 
 ### Gadgets de Terminal
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
-* `sudo pacman -S conky htop glances neofetch fastfetch cava tty-clock neovim ranger figlet bash-pipes bashtop nvtop`
-* `yay -S unimatrix neofetch`
+* `sudo pacman -S conky htop glances neofetch fastfetch cava neovim ranger figlet bashtop nvtop`
+* `yay -S unimatrix neofetch tty-clock bash-pipes`
 
 ### Terminal (Kitty) Mi configuracion
 * `sudo pacman -S kitty ` 

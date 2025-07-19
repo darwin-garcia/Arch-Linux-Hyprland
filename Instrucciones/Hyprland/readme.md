@@ -2,7 +2,7 @@
 ![Example Screenshot.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Kitty%20Terminal%20Gadgets.png)
 
 1. Instala los siguientes paquetes desde la terminal.
-`sudo pacman -S hyprland hyprutils hyprwayland-scanner hyprlang hypridle waybar kitty dunst dolphin
+`sudo pacman -S hyprland hyprutils hyprwayland-scanner hyprlock hyprlang hypridle hyprpaper waybar kitty dunst dolphin
 grim slurp rofi ninja wayland-protocols wlr-randr wlroots
 libjpeg-turbo libwebp libjxl pango cairo pkgconf  libglvnd
 xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk
@@ -30,7 +30,10 @@ Esta es mi configuración:
 * `Super`+`C` = Calculadora (galculator)
 * `Super`+`X` = Captura de pantalla 
 
-5. Gadgets de Terminal
+5. Actualizar Hyprland desde terminal
+`hyprpm update`
+
+6. Gadgets de Terminal
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para ver las instrucciones de instalacion
 
 Probado en Junio 2025

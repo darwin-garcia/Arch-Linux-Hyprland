@@ -36,7 +36,7 @@ _(Este segmento se esta actualizando)_
 ![Hyprland.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Desktop%20Calendar.png)
 #### Instalacion de Entorno Grafico Hyprland
 👉[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Hyprland/readme.md) para ver mas instrucciones de instalacion. Contiene capturas de pantalla
-* `sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire `
+* `sudo pacman -S hyprland waybar kitty dunst dolphin grim slurp rofi ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd hyprutils hyprwayland-scanner hyprpaper hyprlock hyprlang hypridle wlr-randr wlroots xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-user-dirs xdg-utils qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland wireplumber pipewire `
 
 #### Instalacion de Entorno Grafico BSPWM
 👉[Haz Clic Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/BSPWM/readme.md) para una guia mas completa
@@ -60,7 +60,7 @@ En consola TTY de Arch puedes utilizar los siguientes comandos, dependiendo de s
 
 ### 🖼 Temas e Iconos (Pacman y AUR) 
 * `sudo pacman -S  breeze-gtk materia-gtk-theme papirus-icon-theme gtk-engine-murrine gtk-engines`
-* `yay -S arc-gtk-theme qogir-icon-theme qogir-gtk-theme xcursor-breeze breezex-cursor-theme `
+* `yay -S arc-gtk-theme qogir-icon-theme qogir-gtk-theme xcursor-breeze breezex-cursor-theme oxygen-cursors`
 
 ### 🀄 Fuentes instaladas (Pacman y AUR) 
 Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)

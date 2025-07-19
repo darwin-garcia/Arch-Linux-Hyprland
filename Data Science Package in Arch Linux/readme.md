@@ -6,10 +6,10 @@ Ajustes básicos para un entorno fijo
 ` sudo pacman -S –needed python3 python-pip jupyter-notebook`
 
 3. Repositorios de Pacman
-` sudo pacman -S python-pandas python-numpy python-matplotlib python-seaborn python-scikit-learn python-scipy python-requests python-plotly python-bs4 python-pywal python-prettytable python-lxml python-html5lib jupyter-nbformat jupyter-nbconvert jupyter-nbclassic `
+` sudo pacman -S python-pandas python-numpy python-matplotlib python-seaborn python-scikit-learn python-scipy python-requests python-plotly python-pywal python-wget python-prettytable python-lxml python-html5lib jupyter-nbformat jupyter-nbconvert jupyter-nbclassic `
 
 2. Repositorios AUR (yay)
-` sudo yay -S python-ipython-sql python-yfinance python-folium `
+` sudo yay -S python-ipython-sql python-yfinance python-folium python-pytest-pyodide python-curl-cffi`
 
 # Data Science Packages in Arch Linux (MiniConda) 
 

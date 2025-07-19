@@ -56,7 +56,7 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 ` curl https://aur.archlinux.org/cgit/aur.git/snapshot/yay.tar.gz --output yay.tar.gz ` 
 
 3. Descomprimir el archivo del repositorio local
-` tar -xvf yay.tar.gz –strip-components=1 ` 
+` tar -xvf yay.tar.gz -–strip-components=1 ` 
 
 4. Clonar el Repositorio yay (AUR)
 ` git clone https://aur.archlinux.org/yay.git ` 

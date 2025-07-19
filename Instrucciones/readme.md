@@ -89,11 +89,32 @@ Crear la configuracion
 * `yay -S unimatrix neofetch tty-clock bash-pipes`
 
 ### Apps Desktop utilizadas
-`sudo pacman -S audacious ristretto parole mpv `
+* `sudo pacman -S audacious ristretto parole mpv galculator engrampa obs-studio inkscape gimp audacity`
+* `yay -S system-monitoring-center`
 
 ### Terminal (Kitty) Mi configuracion
 * `sudo pacman -S kitty ` 
 Puedes copiar la configuracion en la carpeta del usuario ($HOME): `/home/$USER/.config/kitty/kitty.conf` de este repositorio
+
+### Fondo de Inicio de Sesion Usuarios SDDM
+* `yay -S archlinux-themes-sddm`
+* Examina el directorio `ls /usr/share/sddm/themes`
+* Edita el directorio `sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf` para cambiar el tema que instalaste.
+* Busca en la seccion [Theme] y luego en `Current=` <= Aqui pones el nombre del tema
+
+### Fondo de Booteo y Arranque Incial
+⚠ Primero, debes hacer backup de tu informacion o el equipo debe estar recien instalado antes de dar lugar a una falla en el arranque de tu sistema con Arch Linux. Se debe entrar mayormente con permisos de root y si usas Arch Linux con disco encriptado, ten en cuenta que el arranque puede quedar alterado.
+* `sudo pacman -S plymouth` o `git clone https://aur.archlinux.org/plymouth.git`
+* Recomiendo sistema de arranque GRUB
+* Descarga el tema preferido
+* Listar los temas instalados `plymouth-set-default-theme --list` o `ls /usr/share/plymouth/themes`
+* BGRT (Circulo de arranque predeterminado de Linux)`plymouth-set-default-theme -R bgrt`
+* Debes editar el archivo: `sudo nvim /etc/mkinitcpio.conf`. Añadir en el HOOKS=(base udev `plymouth` autodetect keyboard keymap modconf block filesystems fsck)
+* Reconstruir el gestor: `mkinitcpio -p linux` o `mkinitcpio -p linux-lts` si usas el Kernel de Linux LTS
+* Para que el cambio este aplicado en el sistema gestor de usuarios, debes realizar los siguientes cambios. Mira esta seccion para más informacion.
+
+* Tema para GRUB
+* Seleccion de tema GRUB
 
 Probado en Julio 2025
 🎯 ©2025. Creado y diseñado por 👨‍💻 Darwin Garcia. 🇨🇴

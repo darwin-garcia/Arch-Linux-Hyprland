@@ -68,7 +68,7 @@ Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat
 * `yay -S otf-apple-fonts ttf-ms-fonts`
 
 ### 🎬 Codecs Multimedia
-`sudo pacman -S ffmpeg faac faad2 aom libde265 x264 x265 libmpeg2 xvidcore libmpcdec libdca libtheora libvpx libwebp libdv schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss dvd+rw-tools libdvdread libdvdnav libdvdread libdvd libobs libgl libegl lame flac opus lame jasper dav1d rav1e libvacodec  ` 
+`sudo pacman -S ffmpeg ffmpeg-codecs faac faad2 alsa-lib aom a52dec libde265 x264 x265 bluez-libs libmpeg2 xvidcore libmpcdec libvautil libdca libmad libtheora libvpx libwebp libdv schroedinger sdl gstreamer gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gst-libav dbus-glib xine-lib libnotify libdvdcss dvd+rw-tools libdvdread libdvdnav libdvdread libgl libegl lame flac opus lame wavpack jasper libavif libwebp libheif libjxl dav1d rav1e ` 
 
 ### 🚧 OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux

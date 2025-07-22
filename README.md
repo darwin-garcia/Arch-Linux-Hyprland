@@ -103,5 +103,5 @@ Instalar primero:
 #### Mas sobre Instalacion de Arch Linux
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones) para ver mas instrucciones de instalacion de Arch Linux
 
-Probado en Junio 2025
+Probado en Julio 2025
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

@@ -9,16 +9,17 @@ Debes descargar la version mas reciente de [Arch Linux](https://archlinux.org/do
 ⚠ Nota: Si realizas Dual Boot asegurate de reducir la particion de Windows primero. Se recomienda en disco duro adicional para prevenir fallas en el arranque de un disco principal
 
 ### Primeros Pasos
+![Arch.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/archinstall%20main%20screen.png)
 
 Cuando salga la pantalla de comandos por primera vez intenta esto antes de empezar:
 * Verifica si tienes conexion a Internet: `ping archlinux.org`
 * Debes tener en cuenta el idioma del teclado durante la instalacion, ya que el usuario puede equivocarse al escribir los caracteres adicionales y al terminar de instalar Arch Linux, el teclado regresara al idioma por defecto (Ingles - US). _Mira en la seccion Cambiar el idioma del Teclado_
 * Si quieres instalar Arch Linux de forma facil y sencilla, solo ingresa el comando: `archinstall`. Debes usar las flechas direccionales del teclado, Esc, Space y Enter para interactuar con el menu y validar los cambios
+![ArchInstall.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/archinstall%20menu.png)
 
 ## Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
 _(Este segmento se esta actualizando)_
 👉[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones/Instalacion) para consultar las instrucciones
-
 
 ### Activar Paquetes y Servicios despues de la instalacion de Arch Linux
 * 🌐 Activar el servicio de Red (NetworkManager)

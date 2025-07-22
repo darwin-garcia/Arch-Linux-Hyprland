@@ -11,6 +11,9 @@ Ajustes básicos para un entorno fijo
 2. Repositorios AUR (yay)
 ` sudo yay -S python-ipython-sql python-yfinance python-folium python-pytest-pyodide python-curl-cffi python-pydub python-pydle python-wget`
 
+# venv. Creando entorno virtual en Python
+
+
 # Data Science Packages in Arch Linux (MiniConda) 
 
 1. Instalacion de Mini Conda

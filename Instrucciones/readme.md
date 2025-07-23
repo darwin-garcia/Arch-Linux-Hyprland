@@ -87,7 +87,7 @@ Crear la configuracion
 ### Gadgets de Terminal
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
 * `sudo pacman -S conky htop glances neofetch fastfetch cava neovim ranger figlet bashtop nvtop`
-* `yay -S unimatrix neofetch tty-clock bash-pipes`
+* `yay -S unimatrix neofetch tty-clock bash-pipes waybar-cava`
 
 ### Apps Desktop utilizadas
 * `sudo pacman -S audacious ristretto parole mpv galculator engrampa obs-studio inkscape gimp audacity`

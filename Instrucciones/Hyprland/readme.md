@@ -4,7 +4,7 @@
 1. Instala los siguientes paquetes desde la terminal.
 Si tienes una instalacion limpia sin entorno grafico instalado puedes ejecutar el siguiente comando desde la TTY:
 `sudo pacman -S hyprland hyprutils hyprwayland-scanner hyprlock hyprlang hypridle hyprpaper waybar kitty dunst dolphin
-grim slurp rofi ninja wayland-protocols wlr-randr wlroots
+grim slurp rofi-wayland ninja wayland-protocols wlr-randr wlroots
 libjpeg-turbo libwebp libjxl pango cairo pkgconf  libglvnd
 xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk
 xdg-user-dirs xdg-utils

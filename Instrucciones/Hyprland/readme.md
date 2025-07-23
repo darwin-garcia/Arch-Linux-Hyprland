@@ -3,13 +3,14 @@
 
 1. Instala los siguientes paquetes desde la terminal.
 Si tienes una instalacion limpia sin entorno grafico instalado puedes ejecutar el siguiente comando desde la TTY:
-`sudo pacman -S hyprland hyprutils hyprwayland-scanner hyprlock hyprlang hypridle hyprpaper waybar kitty dunst dolphin
+* `sudo pacman -S hyprland hyprutils hyprwayland-scanner hyprlock hyprlang hypridle hyprpaper waybar kitty dunst dolphin
 grim slurp rofi-wayland ninja wayland-protocols wlr-randr wlroots
 libjpeg-turbo libwebp libjxl pango cairo pkgconf  libglvnd
 xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk
 xdg-user-dirs xdg-utils
 qt6-svg qt6-wayland qt6-virtualkeyboard qt6-multimedia-ffmpeg qt5-wayland qt5ct qt5-wayland
 wireplumber pipewire cmake meson cpio pkg-config git gcc mesa `
+* `yay -S waybar-cava`
 
 3. Los siguientes ajustes deben estar incluidos en el archivo `$HOME/.config/hypr/hyprland.conf`. Puedes copiar o revisar el codigo fuente de la carpeta 📁`Hypr` de mi repositorio
 

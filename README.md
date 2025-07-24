@@ -1,8 +1,4 @@
 # Arch Linux (Hyprland/Wayland)
- ____  ____  ____  ____  ____  ____  ____  ____  
-||H ||||y ||||p ||||r ||||D ||||o ||||t ||||s |||
-||__||||__||||__||||__||||__||||__||||__||||__|||
-|/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||
 
 Arch Linux Ricing with Hyprland (Basic Settings)
 <p> Este repositorio tiene las configuraciones sencillas y minimas para ajustar el entorno de Escritorio a una maquina con Arch Linux instalado desde cero.</p>

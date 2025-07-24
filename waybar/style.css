@@ -12,7 +12,7 @@ window {
 
 window#waybar {
   background-color: #1a1b26;
-  border-radius: 15px;
+  border-radius: 12px;
   margin-top: 6px;
 }
 
@@ -21,40 +21,40 @@ window#waybar.hidden {
 }
 
 #window {
-  padding-left: 10px;
+  padding-left: 6px;
   padding-right: 10px;
-  border-radius: 10px;
+  border-radius: 14px;
   transition: none;
   color: transparent;
   background: transparent;
 }
 
 #workspaces {
-  margin: 6px 6px 6px 6px;
-  border-radius: 18px;
+  margin: 6px 6px 4px 8px;
+  border-radius: 14px;
   background: #222330;
   transition: none;
-  padding-left: 12px;
-  padding-right: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #workspaces button {
   transition: none;
   color: #b5e8e6;
   background: transparent;
-  margin-right: 10px;
+  margin-right: 1px;
 }
 
 #workspaces button.persistent {
   transition: none;
   color: #7aa2f7;
   background: transparent;
-  font-size: 4px;
+  font-size: 1px;
 }
 
 #workspaces button.empty {
   color: #583794;
-  font-size: 2px;
+  font-size: 1px;
   transition: none;
   background: transparent;
 }
@@ -63,7 +63,7 @@ window#waybar.hidden {
   transition: none;
   color: #e0af68;
   background: transparent;
-  font-size: 4px;
+  font-size: 2px;
 }
 
 #network {
@@ -163,7 +163,7 @@ window#waybar.hidden {
   padding-right: 10px;
   border-radius: 18px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   transition: none;
   color: #f1f1f1;
   background: #222330;
@@ -177,7 +177,7 @@ window#waybar.hidden {
   padding-right: 10px;
   border-radius: 18px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   transition: none;
   color: #f1f1f1;
   background: #222330;
@@ -191,7 +191,7 @@ window#waybar.hidden {
   padding-right: 10px;
   border-radius: 18px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   transition: none;
   color: #f1f1f1;
   background: #222330;
@@ -251,11 +251,11 @@ window#waybar.hidden {
   margin-left: 8px;
   padding-left: 10px;
   margin-bottom: 6px;
-  padding-right: 15px;
-  border-radius: 18px;
-  margin-right: 10px;
-  font-size: 11px;
-  color: #f1f1f1;
+  padding-right: 10px;
+  border-radius: 14px;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #7aa2f7;
   background: transparent;
 }
 #custom-media {

@@ -1,20 +1,19 @@
-//                      _                
-// __      ____ _ _   _| |__   __ _ _ __ 
-// \ \ /\ / / _` | | | | '_ \ / _` | '__|
-//  \ V  V / (_| | |_| | |_) | (_| | |   
-//   \_/\_/ \__,_|\__, |_.__/ \__,_|_|   
-//                |___/                
-//
+// .%%...%%...%%%%...%%..%%..%%%%%....%%%%...%%%%%..
+// .%%...%%..%%..%%...%%%%...%%..%%..%%..%%..%%..%%.
+// .%%.%.%%..%%%%%%....%%....%%%%%...%%%%%%..%%%%%..
+// .%%%%%%%..%%..%%....%%....%%..%%..%%..%%..%%..%%.
+// ..%%.%%...%%..%%....%%....%%%%%...%%..%%..%%..%%.
+// .................................................
 
 {
   "layer": "top",
   "width": 1520 ,
-  "margin-top": 10,
+  "margin-top": 5,
 
   // Modules Layout
   "modules-left": ["custom/launcher", "hyprland/workspaces"],
-  "modules-center": ["cpu","memory","disk"],
-  "modules-right":["network","backlight","pulseaudio","battery","clock","custom/power"],
+  "modules-center": [],
+  "modules-right":["cava","network","backlight","pulseaudio","battery","clock","custom/power"],
 
   // Modules Definition
   "custom/launcher" : {
@@ -46,30 +45,48 @@
         "all-outputs": true,
         "active-only": false,
         "persistent-workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-	    "7": [],
-	    "8": [],
-	    "9": [],
-	    "10": [],
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": [],
+		"6": [],
+	        "7": [],
+	        "8": [],
+	        "9": [],
+	        "10": [],
         },
         "format": "{icon}",
         "format-icons": {
-	    "1": "1",
-	    "2": "2",
-	    "3": "3",
-	    "4": "4",
-            "5": "5",
-	    "6": "6",
-	    "7": "7",
-            "active": "<span font='12'>󰮯</span>",
-            "empty": "<span font='8'></span>",
-            "persistent": "󰊠",
+		"1": "1",
+		"2": "2",
+		"3": "3",
+		"4": "4",
+		"5": "5",
+		"6": "6",
+		"7": "7",
+		"active": "<span font='12'>󰮯</span>",
+		"empty": "<span font='8'></span>",
+		"persistent": "󰊠",
        }
+   },
+
+
+   "hyprland/window" : {
+        "format" : " {}",
+	"separate-outputs": true,
+	"max-length": 100
+   },
+
+
+   "mpris": {
+        "player" : "audacious",
+        "dynamic-order": ["title", "artist"],
+        "format": "{status_icon} <i>{dynamic}</i>",
+        "status-icons":{
+                "default": "▶" ,
+                "paused": "⏸" 
+        },
    },
 
   "cpu": {
@@ -104,22 +121,24 @@
   },
 
  "cava": {
-	//        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
-		"framerate": 30,
-		"autosens": 1,
-		"sensitivity": 100,
-		"bars": 14,
-		"lower_cutoff_freq": 50,
-		"higher_cutoff_freq": 10000,
+	//  "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+		"framerate": 60,
+		"autosens": 0,
+		"sensitivity": 20,
+		"bars": 16,
+		"lower_cutoff_freq": 40,
+		"higher_cutoff_freq": 16000,
 		"method": "pulse",
 		"source": "auto",
-		"stereo": true,
+		"stereo": false,
 		"reverse": false,
+        	"hide_on_silence": true,
+        	"sleep_timer": 20,
 		"bar_delimiter": 0,
 		"monstercat": false,
 		"waves": false,
-		"noise_reduction": 0.77,
-		"input_delay": 2,
+		"noise_reduction": 0.60,
+		"input_delay": 1,
 		"format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
 		"actions": {
 		           "on-click-right": "mode"
@@ -128,7 +147,7 @@
 
   "pulseaudio": {
 		"tooltip": true,
-		"tooltip-format" : "  Master Volume: {desc} ",
+		"tooltip-format" : "  Master Volume: {desc} ({volume}%)",
 		"scroll-step": 5,
        		"interval": 1,
 		"format": "{icon} {volume}%",
@@ -145,7 +164,7 @@
 
    "network": {
 		"tooltip": true,
-		"format-wifi": "<span color='#9ece6a'> </span> {bandwidthDownBytes} | {essid}",
+		"format-wifi": "<span color='#9ece6a'> </span> {bandwidthDownBytes} ({signalStrength}%)",
 		"format-ethernet": "<span color='#7aa2f7'>󰈁</span> {bandwidthDownBytes} | {ipaddr}",
 		"format-disconnected": "<span color='#FF0000'>󰌙 </span>",
         	"interval": 2,
@@ -194,7 +213,7 @@
         "tooltip": true,
         "interval": 60,
         "format": "  {:%I:%M %p}",
-        "format-alt": "󰸗 {:%A, %B %d/%Y   %I:%M %p} ",
+        "format-alt": "󰸗 {:%A %d %B %Y   %I:%M %p} ",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
                     "mode"          : "year",

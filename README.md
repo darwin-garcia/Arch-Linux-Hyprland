@@ -20,7 +20,7 @@ Arch Linux Ricing with Hyprland (Basic Settings)
 
 ![File Explorer](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Files%20Explorer.png)
 
-## Video
+## 📽 Video
 
 ## ⚙ My Settings (Mis Configuraciones)
 
@@ -32,10 +32,8 @@ Official Repo
 * [LazyVim](https://www.lazyvim.org/): Text Editor IDE based
 * [OhMyZSH](https://ohmyz.sh/#install): Terminal Shell
 
-Console: ` `
 
-Files: 
-$USER/.config/
+📁: $USER/.config/
 
 Puedes copiar y pegar los archivos alojados en este repositorio. Este es el ejemplo en terminal
 ` cp -r (file_name) ./config/(folder_name)/(file_name)`

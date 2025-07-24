@@ -5,7 +5,7 @@ Arch Linux Ricing with Hyprland (Basic Settings)
 
 [Haz Clic Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones/Hyprland) para ver las Instrucciones de Instalacion de mi entorno con Hyprland
 
-## Screenshots
+## 🖼 Screenshots
 ![Desktop.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/Desktop.png)
 
 ![Lock Screen.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/LockScreen.png)
@@ -22,7 +22,7 @@ Arch Linux Ricing with Hyprland (Basic Settings)
 
 ## Video
 
-## My Settings (Mis Configuraciones)
+## ⚙ My Settings (Mis Configuraciones)
 
 Official Repo
 * [Waybar](https://github.com/Alexays/Waybar): Taskbar on top
@@ -102,7 +102,6 @@ Instalar primero:
 
 
 #### Mas sobre Instalacion de Arch Linux
-[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones) para ver mas instrucciones de instalacion de Arch Linux
+👉[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones) para ver mas instrucciones de instalacion de Arch Linux
 
-Probado en Julio 2025
-👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴
+Probado en Julio 2025 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴

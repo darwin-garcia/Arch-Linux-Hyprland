@@ -71,10 +71,10 @@ Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat
 ### 🎬 Codecs Multimedia
 `sudo pacman -S ffmpeg  faac faad2 alsa-lib aom a52dec libde265 x264 x265 bluez-libs libmpeg2 xvidcore zlib libxv libxvmc libmpcdec libdca libmad libtheora libvpx libwebp libdv schroedinger sdl gstreamer gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gst-libav dbus-glib xine-lib libnotify libdvdcss dvd+rw-tools libdvdread libdvdnav libdvdread libgl libegl lame flac opus lame wavpack jasper libavif libwebp libheif libjxl dav1d rav1e ` 
 
-### 🎬 Extractor de Archivos
+### 🗜 Extractor de Archivos
 `sudo pacman -S engrampa xarchiver tar zip gzip bzip2 lrzip lz4 lzip unarj unrar unzip rpm-tools libarchive`
 
-### 🚧 OhMyZSH
+###  OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 
 ### 📑 NeoVim
@@ -84,12 +84,12 @@ Crear la configuracion
 * Crear el archivo de configuracion `touch init.vim `
 * Editar la configuracion `nvim /.config/nvim/init.vim `
 
-### Gadgets de Terminal
+###  Gadgets de Terminal
 [Haz Click Aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para obtener mas informacion. Estos son los paquetes que contienen los Gadgets
 * `sudo pacman -S conky htop glances neofetch fastfetch cava neovim ranger figlet bashtop nvtop`
 * `yay -S unimatrix neofetch tty-clock bash-pipes waybar-cava`
 
-### Apps Desktop utilizadas
+###  Apps Desktop utilizadas
 * `sudo pacman -S audacious ristretto parole mpv galculator engrampa obs-studio inkscape gimp audacity`
 * `yay -S system-monitoring-center`
 

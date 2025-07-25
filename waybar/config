@@ -18,7 +18,7 @@
   // ░▀░▀░▀▀▀░▀▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀
 
   "modules-left": ["custom/launcher", "hyprland/workspaces"],
-  "modules-center": [],
+  "modules-center": ["cpu","memory","disk"],
   "modules-right":["cava","network","backlight","pulseaudio","battery","clock","custom/power"],
 
   // Modules Definition
@@ -177,13 +177,14 @@
 
    "network": {
 		"tooltip": true,
-		"format-wifi": "<span color='#9ece6a'> </span> {bandwidthDownBytes} ({signalStrength}%)",
+		"format-wifi": "<span color='#9ece6a'> </span> ({signalStrength}%)",
 		"format-ethernet": "<span color='#7aa2f7'>󰈁</span> {bandwidthDownBytes} | {ipaddr}",
 		"format-disconnected": "<span color='#FF0000'>󰌙 </span>",
         	"interval": 2,
-		"tooltip-format-wifi": "󰢩 {ifname} \n  {essid} \n Signal: {signalStrength} % \n Freq: {frequency}GHz \n IP: {ipaddr} \n Submask: {netmask} \n Gateway: {gwaddr}",
-		"tooltip-format-ethernet": "󰢩  {ifname} \n󰈁 LAN \n IP: {ipaddr} \n Submask: {netmask} \n Gateway: {gwaddr}",
-		"tooltip-format-disconnected": "󰅛 Disconnected."
+		"tooltip-format-wifi": "󰢩 Interface: {ifname} \n—————————————————————————\n  {essid} \n󰥛 Signal: {signalStrength} % \n Frequency: {frequency}GHz \n—————————————————————————\n󰶡 {bandwidthDownBytes} - 󰶣 {bandwidthUpBytes}\n—————————————————————————\nIP: {ipaddr} \nSubmask: {netmask} \nGateway: {gwaddr}",
+		"tooltip-format-ethernet": "󰢩 Interface: {ifname} \n󰈁 LAN \n IP: {ipaddr} \n Submask: {netmask} \n Gateway: {gwaddr}",
+		"tooltip-format-disconnected": "󰅛 Disconnected.",
+		"on-click": "nm-connection-editor"
 		
    },
 

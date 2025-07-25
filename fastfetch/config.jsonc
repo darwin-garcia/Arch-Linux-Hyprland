@@ -1,0 +1,147 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
+//
+
+{
+    "display": {
+        "separator": " 󰑃 "
+    },
+    "modules": [
+
+	{
+            "type": "custom",
+            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
+        },
+	// Hostname
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+	// OS (Any Distro)
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "34",  // = color4
+        },
+	// Kernel Linux
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "34",
+        },
+	// Packages (pacman)
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ",
+            "keyColor": "34",  
+        },
+	
+	// Window Manager (Desktop Environment)
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "34", 
+        },
+	// WM Theme
+	{
+	    "type": "wmtheme",
+	    "key": "󰉼 ",
+	    "keyColor": "blue"
+	    },
+	// Icons Theme
+	{
+	    "type": "icons",
+	    "key": "󰀻 ",
+	    "keyColor": "blue"
+	},
+
+	// Cursors (Theme)
+        {
+            "type": "cursor",
+            "key": " ",
+            "keyColor": "34", 
+        },
+	// Terminal Shell (bash, fish, zsh)
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "34", 
+        },
+	// Terminal App
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "34", 
+        },
+	// Terminal Font
+        {
+            "type": "terminalfont",
+            "key": " ",
+            "keyColor": "34", 
+        },
+	
+	// Date / Time (Today)
+        {
+            "type": "datetime",
+            "format": "{1}-{3}-{11}",
+            "key": " ",
+            "keyColor": "34", 
+        },
+
+	// Time On Machine (uptime)
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "34", 
+        },
+
+	// ===============Machine=======================
+	{
+            "type": "display",
+	    "key": "󰍹 ",
+	    "keyColor": "green",
+	    "compactType": "original-with-refresh-rate"
+	},
+
+	{
+	    "type": "cpu",
+	    "key": "󰻠 ",
+	    "keyColor": "green"
+	},
+
+	{
+	    "type": "gpu",
+	    "key": "󰻑 ",
+	    "format": "{2}",
+	    "keyColor": "green"
+	},
+
+	{
+	    "type": "memory",
+	    "key": "󰾆 ",
+	    "keyColor": "green"
+	},
+
+	{
+	    "type": "swap",
+	    "key": "󰓡 ",
+	    "keyColor": "green"
+	},
+
+
+
+	// Custom Colors
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
+        },
+        "break",
+        "break",
+    ]
+}

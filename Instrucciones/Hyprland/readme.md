@@ -39,5 +39,8 @@ Esta es mi configuración:
 6. Gadgets de Terminal
 [Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/blob/main/Instrucciones/Add-ons/readme.md) para ver las instrucciones de instalacion
 
+Tengo actualizacion del escritorio con Waybar y Hyprlock rediseñado 
+[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland-v2/blob/main/README.md) para ver más información y el codigo fuente está disponible
+
 Probado en Julio 2025
 🎯 ©2025. Creado y diseñado por 👨‍💻 Darwin Garcia. 🇨🇴

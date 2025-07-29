@@ -13,6 +13,11 @@ Ajustes básicos para un entorno fijo
 
 # venv. Creando entorno virtual en Python
 
+Desde Cualquier maquina con Linux, debes tener instalado primero el paquete Python
+1. Escribe en la terminal: `python -m venv Nueva_Carpeta`
+2. Selecciona la carpeta creada: `source /home/$USER/Nueva_Carpeta/bin/activate`
+3. Para desactivar el entorno virtual desde tu carpeta seleccionada escribe: `deactivate`
+4. Instala los paquetes necesarios desde la documentacion de Python, ya que posees el entorno aislado para ti
 
 # Data Science Packages in Arch Linux (MiniConda) 
 

@@ -17,7 +17,7 @@ Cuando salga la pantalla de comandos por primera vez intenta esto antes de empez
 * Si quieres instalar Arch Linux de forma facil y sencilla, solo ingresa el comando: `archinstall`. Debes usar las flechas direccionales del teclado, Esc, Space y Enter para interactuar con el menu y validar los cambios
 ![ArchInstall.](https://raw.githubusercontent.com/darwin-garcia/Arch-Linux-Hyprland/refs/heads/main/Screenshots/archinstall%20menu.png)
 
-## Metodo Dificl (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
+## Metodo Dificil (Para usuarios intermedios y avanzados. No necesitas ArchInstall).
 _(Este segmento se esta actualizando)_
 👉[Haz clic aqui](https://github.com/darwin-garcia/Arch-Linux-Hyprland/tree/main/Instrucciones/Instalacion) para consultar las instrucciones
 

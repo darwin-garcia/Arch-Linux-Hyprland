@@ -49,7 +49,7 @@ Gestor de Paquetes integrado en Arch Linux
 Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 
 1. Paquetes Requeridos
-` sudo pacman -S –needed base-devel git curl` 
+` sudo pacman -S –-needed base-devel git curl` 
 
 2. Repositorio Local
 ` curl https://aur.archlinux.org/cgit/aur.git/snapshot/yay.tar.gz --output yay.tar.gz ` 
@@ -64,7 +64,7 @@ Gestor de Paquetes alternativo al repositorio oficial de Arch (pacman)
 ` cd yay/ ` 
 
 6. Sincronizar
-` makepkg –syncdeps ` 
+` makepkg –-syncdeps ` 
 
 7. Instalacion (Dentro de la cuenta de usuario)
 ` makepkg -si`

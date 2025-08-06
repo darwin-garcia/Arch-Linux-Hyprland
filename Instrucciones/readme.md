@@ -74,7 +74,7 @@ Fuentes para iconos personalizados: [Nerd Fonts](https://www.nerdfonts.com/cheat
 ### 🗜 Extractor de Archivos
 `sudo pacman -S engrampa xarchiver tar zip gzip bzip2 lrzip lz4 lzip unarj unrar unzip rpm-tools libarchive`
 
-###  OhMyZSH
+###  😲 OhMyZSH
 [Sitio Web](https://ohmyz.sh/#install) de Instalacion. Debes tener el paquete `curl` instalado en el PC con Arch Linux
 
 1. Instalar el ZSH: `sudo pacman -S zsh zsh-completions`

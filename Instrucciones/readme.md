@@ -114,6 +114,19 @@ Puedes copiar la configuracion en la carpeta del usuario ($HOME): `/home/$USER/.
 * Edita el directorio `sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf` para cambiar el tema que instalaste.
 * Busca en la seccion [Theme] y luego en `Current=` <= Aqui pones el nombre del tema
 
+### Lector de Huellas Synaptics (Aplica Lenovo ThinkPads)
+Repositorio oficial: [fprintd](https://wiki.archlinux.org/title/Fprint)
+
+Instalar primero: 
+* `sudo pacman -S usbutils`
+* `sudo pacman -S fprintd libfprint imagemagick`
+* Debe editar el archivo: `sudo nvim /etc/pam.d/system-local-login`
+* Añadir la siguiente linea: `auth      sufficient   pam_fprintd.so` y Guardar en el editor
+
+* Debe editar el archivo en el gestor de usuarios. Consulte la documentación arriba.
+* Para habilitar el servicio: `sudo systemctl enable fprintd.service` o `sudo systemctl edit --full --force fprintd.service` y `sudo systemctl daemon-reload`. Puede Reiniciar al finalizar esta parte
+* Tan pronto finalice, debe configurar el usuario `fprintd-enroll *user*` y luego comprobar con `fprint-verify`
+
 ### Fondo de Booteo y Arranque Incial
 ⚠ Primero, debes hacer backup de tu informacion o el equipo debe estar recien instalado antes de dar lugar a una falla en el arranque de tu sistema con Arch Linux. Se debe entrar mayormente con permisos de root y si usas Arch Linux con disco encriptado, ten en cuenta que el arranque puede quedar alterado.
 * `sudo pacman -S plymouth` o `git clone https://aur.archlinux.org/plymouth.git`
